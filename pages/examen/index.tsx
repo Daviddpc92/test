@@ -28,7 +28,7 @@ interface AnswerResult {
 
 type GroupedAnswers = Record<string, Answer[]>;
 
-export function AnimatedCards(): JSX.Element {
+export function ExamCard(): JSX.Element {
   const [groupedAnswers, setGroupedAnswers] = useState<GroupedAnswers>({});
   const [showTest, setShowTest] = useState<boolean>(false);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
