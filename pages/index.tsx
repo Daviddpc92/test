@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { AnimatedCards } from "./subject";
+import AnimatedCards from "./subject";
 import { useState } from "react";
-import { ExamCard } from "./examen";
+import ExamCard from "./examen";
 
 export default function Home() {
   const [showTest, setShowTest] = useState<boolean>(false);

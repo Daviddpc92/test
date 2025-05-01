@@ -6,7 +6,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import { ANSWERS } from "./const";
+import { ANSWERS_EXAM } from "@/lib/const";
 
 interface Answer {
   id?: number;
@@ -28,7 +28,8 @@ interface AnswerResult {
 
 type GroupedAnswers = Record<string, Answer[]>;
 
-export function ExamCard(): JSX.Element {
+
+export default function ExamCard(): JSX.Element {
   const [groupedAnswers, setGroupedAnswers] = useState<GroupedAnswers>({});
   const [showTest, setShowTest] = useState<boolean>(false);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
@@ -43,7 +44,7 @@ export function ExamCard(): JSX.Element {
   const [showMistakes, setShowMistakes] = useState<boolean>(false);
 
   useEffect(() => {
-    const grouped = ANSWERS.reduce<GroupedAnswers>((acc, item) => {
+    const grouped = ANSWERS_EXAM.reduce<GroupedAnswers>((acc, item) => {
       if (!acc[item.subject]) acc[item.subject] = [];
       acc[item.subject].push(item as Answer);
       return acc;

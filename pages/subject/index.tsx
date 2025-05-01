@@ -6,7 +6,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import { ANSWERS } from "./const";
+import { ANSWERS } from "@/lib/const";
 
 interface Answer {
   id?: number;
@@ -28,7 +28,7 @@ interface AnswerResult {
 
 type GroupedAnswers = Record<string, Answer[]>;
 
-export function AnimatedCards(): JSX.Element {
+export default function AnimatedCards(): JSX.Element {
   const [groupedAnswers, setGroupedAnswers] = useState<GroupedAnswers>({});
   const [showTest, setShowTest] = useState<boolean>(false);
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
