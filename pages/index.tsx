@@ -22,7 +22,7 @@ export default function Home() {
             {showTest ? "Ver Temario" : "Examen"}
           </button>
 
-          <div className="w-full flex justify-center rounded-lg shadow-lg overflow-auto lg:max-w-3xl">
+          <div className="w-full flex justify-center rounded-lg shadow-lg overflow-auto lg:max-w-5xl">
             {showTest ? <ExamCard /> : <AnimatedCards />}
           </div>
         </div>
