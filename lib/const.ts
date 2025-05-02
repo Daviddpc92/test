@@ -1,4 +1,6 @@
-export const ANSWERS_EXAM = [
+import { Answer } from "@/components/molecules/render/types";
+
+export const ANSWERS_EXAM: Answer[] = [
   {
     subject: "Planificación y administración de redes",
     title:
@@ -67,10 +69,10 @@ export const ANSWERS_EXAM = [
   {
     subject: "Planificación y administración de redes",
     title: "¿En qué nivel del modelo OSI opera un switch?",
-    answer_1: 3,
-    answer_2: 2,
-    answer_3: 1,
-    answer_4: 4,
+    answer_1: "3",
+    answer_2: "2",
+    answer_3: "1",
+    answer_4: "4",
     correct_answer: "2",
   },
   {
@@ -340,10 +342,10 @@ export const ANSWERS_EXAM = [
     subject: "Planificación y administración de redes",
     title:
       "Sabiendo que el ancho de banda de referencia es 108 y que Ethernet tiene un ancho de banda de de 107, ¿Cuál será su coste de interfaz?:",
-    answer_1: 10,
-    answer_2: 100,
-    answer_3: 1,
-    answer_4: 0,
+    answer_1: '10',
+    answer_2: '100',
+    answer_3: '1',
+    answer_4: '0',
     correct_answer: "10",
   },
   {
@@ -2393,7 +2395,7 @@ export const ANSWERS_EXAM = [
   },
 ];
 
-export const ANSWERS = [
+export const ANSWERS: Answer[] = [
   {
     id: 1,
     created_at: "2025-04-18 16:49:51.358505+00",
@@ -7684,11 +7686,11 @@ export const ANSWERS = [
     created_at: "2025-04-18 17:25:38.540792+00",
     title:
       "Sabiendo que el ancho de banda de referencia es 108 y que Ethernet tiene un ancho de banda de de 107, ¿Cuál será su coste de interfaz?:",
-    answer_1: 0,
-    answer_2: 100,
-    answer_3: 1,
-    answer_4: 10,
-    correct_answer: 10,
+    answer_1: "0",
+    answer_2: "100",
+    answer_3: "1",
+    answer_4: "10",
+    correct_answer: "10",
     subject: "Planificación y administración de redes",
   },
   {
