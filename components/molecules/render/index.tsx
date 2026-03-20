@@ -8,6 +8,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { Button } from "@/components/atoms/button";
+import { subjectCoverImageUrl } from "@/lib/subjectCoverImage";
 import {
   Answer,
   AnswerResult,
@@ -415,7 +416,7 @@ export default function RenderQuestion({
               <div className="bg-white rounded-lg overflow-hidden shadow-lg max-w-3xl mx-auto">
                 <div className="relative">
                   <img
-                    src="https://fepfi.es/wp-content/uploads/2021/10/placeholder-1.png"
+                    src={subjectCoverImageUrl(subject)}
                     alt={subject}
                     className="w-full h-48 object-cover"
                   />
