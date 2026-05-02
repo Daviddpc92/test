@@ -386,9 +386,11 @@ export default function RenderQuestion({
           <div className="max-w-2xl mx-auto">
             <div
               ref={cardRef}
-              className={`bg-white p-8 rounded-lg shadow-lg transition-shadow ${
-                isDragging ? "shadow-2xl" : "shadow-lg"
-              }`}
+              className={`bg-white p-8 rounded-lg transition-all ${
+                currentQuestion.pregunta_examen
+                  ? "border-4 border-yellow-400 shadow-2xl shadow-yellow-400/50"
+                  : "border border-gray-200"
+              } ${isDragging ? "shadow-2xl" : "shadow-lg"}`}
               style={{ touchAction: "none" }}
             >
               <div className="flex justify-between items-center mb-4">
@@ -398,8 +400,9 @@ export default function RenderQuestion({
                     {groupedAnswers[selectedSubject].length}
                   </span>
                   {currentQuestion.pregunta_examen && (
-                    <span className="border-2 border-yellow-500 bg-gradient-to-r from-red-600 to-orange-600 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg animate-pulse">
-                      ⭐ EXAMEN
+                    <span className="inline-flex items-center gap-2 border-2 border-yellow-400 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 text-white text-xs font-bold px-5 py-2 rounded-full shadow-lg shadow-yellow-400/50 animate-pulse">
+                      PREGUNTA DE EXAMEN
+                      <span className="text-lg">⭐</span>
                     </span>
                   )}
                 </div>

@@ -626,970 +626,970 @@
     }
   ],
 
-  "Administración de sistemas operativos": [
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cómo se actualiza el sistema operativo Linux?",
-      "opciones": {
-        "A": "Instalando los parches de seguridad",
-        "B": "Configurando las propiedades de red",
-        "C": "Actualizando los paquetes del sistema",
-        "D": "Configurando la BIOS"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+  "Administración de sistemas operativos":[
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "1. Para el almacenamiento de los usuarios y los grupos en Linux se usan los ficheros:",
+    "opciones": {
+      "A": "/etc/passwd para los usuarios",
+      "B": "/etc/group para los usuarios también",
+      "C": "No se almacenan en ficheros",
+      "D": "Todas las anteriores son incorrectas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál de las siguientes es una herramienta para la monitorización de Windows?",
-      "opciones": {
-        "A": "Monitor de rendimiento",
-        "B": "Monitor de gestión",
-        "C": "Visor de ayuda",
-        "D": "Administrador de dispositivos"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "2. ¿Qué cadena es la encargada de controlar los paquetes entrantes en iptables?",
+    "opciones": {
+      "A": "OUTPUT",
+      "B": "EXIT",
+      "C": "FORWARD",
+      "D": "INPUT"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál de las siguientes tecnologías se utiliza comúnmente para habilitar el acceso remoto en Windows?",
-      "opciones": {
-        "A": "RDP (Remote Desktop Protocol)",
-        "B": "FTP (File Transfer Protocol)",
-        "C": "SSH (Secure Shell)",
-        "D": "HTTP (Hypertext Transfer Protocol)"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "3. La estructura de LDAP se divide en:",
+    "opciones": {
+      "A": "Clases objetos y atributos",
+      "B": "Objetos y atributos",
+      "C": "Clases, atributos y unidades",
+      "D": "Todas las anteriores son incorrectas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál es el fichero de configuración de CUPS?",
-      "opciones": {
-        "A": "/etc/cupsd.conf",
-        "B": "/etc/cups/cupsd.conf",
-        "C": "/etc/cups/cups.conf",
-        "D": "/etc/cups.conf"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "4. La principal diferencia entre los comandos sed y grep es que...",
+    "opciones": {
+      "A": "No hay diferencias",
+      "B": "Con grep, además de filtrar, podemos reemplazar.",
+      "C": "grep únicamente funciona para filtrar y sed únicamente funciona para reemplazar.",
+      "D": "Con sed, además de filtrar, podemos reemplazar."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál es la cadena de conexión vía web para conectarnos a la herramienta gráfica de OpenLDAP?",
-      "opciones": {
-        "A": "http://localhost/phpLDAP",
-        "B": "http://localhost/phpAdminLdap",
-        "C": "http://localhost/phpldapadmin",
-        "D": "http://localhost/phpLdapmyAdmin"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "5. Para agregar un rol a un servidor Windows Server:",
+    "opciones": {
+      "A": "Solo se puede llevar a cabo con las opciones de administración del servidor.",
+      "B": "Existen diferentes procedimientos, entre ellos, el uso de PowerShell.",
+      "C": "Únicamente se puede hacer con PowerShell.",
+      "D": "Todas son correctas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál es la principal herramienta gráfica de gestión de OpenLDAP?",
-      "opciones": {
-        "A": "phpLdapmyAdmin",
-        "B": "phpLDAP",
-        "C": "phpAdminLdap",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "6. Si queremos añadir a samba al usuario alumno, ¿qué comando deberíamos usar?",
+    "opciones": {
+      "A": "smbpasswd si el usuario ya está creado en el sistema.",
+      "B": "useradd para crear el usuario y después smbpasswd.",
+      "C": "A y B son correctas.",
+      "D": "smbpasswd aunque no exista el usuario."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Cuál es la principal razón para prestar especial atención a los permisos de una red?",
-      "opciones": {
-        "A": "Para asegurar que todos los usuarios tengan la misma capacidad de acceso y modificación de archivos",
-        "B": "Para evitar que cualquier usuario pueda borrar, editar o crear archivos sin las debidas restricciones",
-        "C": "Para aumentar la velocidad de transferencia de archivos entre diferentes áreas, usuarios o secciones",
-        "D": "Para disminuir la cantidad de espacio utilizando por los archivos en la red"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "7. En cuanto a las GPO de Windows se refiere, es importante:",
+    "opciones": {
+      "A": "No crear varias GPO.",
+      "B": "Saber en qué orden de aplicación de basan.",
+      "C": "Poner el nombre de la GPO que indica Windows.",
+      "D": "Que funcione en varias plataformas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Dónde se pueden almacenar recursos compartidos?",
-      "opciones": {
-        "A": "En un servidor de ficheros",
-        "B": "En un ordenador con Windows Server únicamente",
-        "C": "Solamente en un disco duro externo",
-        "D": "De manera online únicamente"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "8. Por defecto, en Windows Server, los servicios de escritorio remoto:",
+    "opciones": {
+      "A": "Vienen deshabilitados.",
+      "B": "Vienen habilitados.",
+      "C": "Funcionan solo con el usuario administrador.",
+      "D": "Todas son correctas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Para qué sirven los reenviadores DNS en Windows?",
-      "opciones": {
-        "A": "Para consultar a otros servidores DNS externos",
-        "B": "Para añadir más DNS a nuestra red",
-        "C": "Para funcionar junto a DHCP",
-        "D": "Para configurar una nueva zona inversa"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "9. De los diferentes permisos que podemos añadir a los usuarios en Windows, se encuentran:",
+    "opciones": {
+      "A": "Leer, escritura, modificar, acceso global",
+      "B": "Leer, cambiar y control total",
+      "C": "Permisos NTFS, carpeta compartida",
+      "D": "A y B son correctas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué comando se usa para apagar el servidor Microsoft Windows Server 2019?",
-      "opciones": {
-        "A": "Shutdown /s /r 0",
-        "B": "Shutdown /r /s 0",
-        "C": "Shutdown /s /t 0",
-        "D": "Shutdown /r /t 0"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "10. Un servidor de impresión...",
+    "opciones": {
+      "A": "Solo se utiliza en el caso de que no haya una impresora física",
+      "B": "Se utiliza para poder administrar el uso de las impresoras, facilitando el acceso a los usuarios para poder imprimir, escanear, etc",
+      "C": "Se utiliza cuando la impresora tiene una cola de impresión muy extensa para poder redirigir el trabajo hacia otra impresora.",
+      "D": "Se utiliza para crear grupos de impresoras y facilitar el acceso a ellas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué directiva de SSH indica el número máximo de conexiones a un equipo desde una misma dirección IP de manera simultánea?",
-      "opciones": {
-        "A": "PermitRootLogin",
-        "B": "MaxAuthTries",
-        "C": "DenyUsers",
-        "D": "MaxStartups"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "11. Una cadena en iptables es:",
+    "opciones": {
+      "A": "La memoria volátil del equipo.",
+      "B": "Un conjunto de reglas definidas",
+      "C": "Un dispositivo físico",
+      "D": "A y B son correctas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué directorio se consulta para comprobar que se han montado bien los directorios en /etc/fstab?",
-      "opciones": {
-        "A": "/etc/proc/mounts",
-        "B": "/proc/mount",
-        "C": "/mount/proc",
-        "D": "/proc/mounts"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "12. ¿Qué tipo de dirección IP se configura con la siguiente estructura? (network, version: 2, ethernets, Interfaz, dhcp4: yes)",
+    "opciones": {
+      "A": "Una dirección IP estática",
+      "B": "Una dirección IP con máscara de red 255.255.255.267.",
+      "C": "Una dirección IP con gateway 192.168.1.0.",
+      "D": "Una dirección IP dinámica."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué es un árbol de dominios de un AD?",
-      "opciones": {
-        "A": "Una unidad de jerarquía",
-        "B": "Una estructura jerárquica",
-        "C": "Un objeto de un dominio",
-        "D": "Un usuario"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "13. ¿Qué comando se usa para apagar el servidor Microsoft Windows Server 2019?",
+    "opciones": {
+      "A": "Shutdown /s /r 0",
+      "B": "Shutdown /r /s 0",
+      "C": "Shutdown /r /t 0",
+      "D": "Shutdown /s /t 0"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué instrucción crea un bucle que ejecuta una serie de sentencias hasta terminar una lista de elementos en Shell Scripting?",
-      "opciones": {
-        "A": "while",
-        "B": "for",
-        "C": "until",
-        "D": "do"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "14. ¿Cuál de las siguientes tecnologías se utiliza comúnmente para habilitar el acceso remoto en Windows?",
+    "opciones": {
+      "A": "FTP (File Transfer Protocol).",
+      "B": "SSH (Secure Shell).",
+      "C": "HTTP (Hypertext Transfer Protocol).",
+      "D": "RDP (Remote Desktop Protocol)."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué opción del comando grep permite visualizar el número total de líneas que coinciden con el patrón?",
-      "opciones": {
-        "A": "c",
-        "B": "i",
-        "C": "w",
-        "D": "v"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "15. Si creamos un equipo en un AD, ¿de cuántos modos se puede hacer?",
+    "opciones": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "6"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué rol debemos de seleccionar para promocionar a controlador de dominio?",
-      "opciones": {
-        "A": "Atestación de mantenimiento del dispositivo",
-        "B": "Servicios de dominio de Active Directory",
-        "C": "Servicios de impresión y documentos",
-        "D": "Servidor web (IIS)"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "16. El atributo Uid de un objeto en OpenLDAP, hace referencia a...",
+    "opciones": {
+      "A": "El ID de un usuario.",
+      "B": "Un apellido",
+      "C": "Correo electrónico de usuario.",
+      "D": "La descripción de un objeto"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "¿Qué tipo de dirección se configura con la estructura mostrada (dinámica)?",
-      "opciones": {
-        "A": "Una dirección IP estática",
-        "B": "Una dirección IP dinámica",
-        "C": "Una dirección IP con máscara de red 255.255.255.0",
-        "D": "Una dirección IP con gateway 192.168.1.0"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "17. Para visualizar el contenido de un fichero en Linux, usamos el comando:",
+    "opciones": {
+      "A": "ls",
+      "B": "mkdir",
+      "C": "cat",
+      "D": "echo"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "De los diferentes permisos que podemos añadir a los usuarios en Windows, se encuentran:",
-      "opciones": {
-        "A": "Leer, cambiar y control total.",
-        "B": "Leer, escritura, modificar, acceso global.",
-        "C": "Permisos NTFS, carpeta compartida.",
-        "D": "La respuesta a y b son correctas."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "18. ¿Qué directiva de SSH en Linux indica el número máximo de conexiones a un equipo desde una misma dirección IP de manera simultánea?",
+    "opciones": {
+      "A": "PermitRootLogin",
+      "B": "MaxAuthTries",
+      "C": "DenyUsers",
+      "D": "Ninguna de las anteriores es correcta"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El atributo Uid de un objeto de LDAP, hace referencia a....",
-      "opciones": {
-        "A": "Un apellido",
-        "B": "El ID de usuario",
-        "C": "Correo electrónico",
-        "D": "La descripción del objeto"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "19. ¿Qué opción del comando grep permite visualizar el número total de líneas que coinciden con el patrón?",
+    "opciones": {
+      "A": "c",
+      "B": "w",
+      "C": "i",
+      "D": "v"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El comando ln -sfn /usr/share/zoneinfo/Europe/Paris /etc/localtime, ¿qué hace?",
-      "opciones": {
-        "A": "Eliminar la zona horaria",
-        "B": "Agregar Londres como nueva zona horaria del sistema",
-        "C": "Crear un enlace duro",
-        "D": "Configurar la zona horaria"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "20. ¿Cómo se actualiza el sistema operativo Linux?",
+    "opciones": {
+      "A": "Instalando los parches de seguridad.",
+      "B": "Configurando las propiedades de red.",
+      "C": "Actualizando los paquetes del sistema.",
+      "D": "Ninguna de las anteriores es correcta."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El comando que debemos de usar para comprobar que la sintaxis es correcta en Netplan es:",
-      "opciones": {
-        "A": "netplan try",
-        "B": "netplan apply",
-        "C": "netplan try con permisos de administrador",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "21. Si vemos la imagen del formulario de creación de objeto con Nombre, Apellidos y Nombre de inicio de sesión, ¿Qué estamos creando?",
+    "opciones": {
+      "A": "Un grupo.",
+      "B": "Un equipo.",
+      "C": "Otro objeto.",
+      "D": "Un usuario."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El fichero en el que indicamos a que partición queremos poder asignar cuotas de disco para los usuarios en Linux es...",
-      "opciones": {
-        "A": "/etc/fstab",
-        "B": "/etc/mounts",
-        "C": "/etc/fs",
-        "D": "/etc/parts"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "22. Queremos que el contenido de un fichero en Linux llamado notas.txt se añada a otro fichero notas2.txt que ya tiene contenido y no queremos que se borre, ¿qué comando se debe usar?",
+    "opciones": {
+      "A": "cat notas.txt >> notas2.txt",
+      "B": "cat notas.txt < notas2.txt",
+      "C": "cat notas.txt > notas2.txt",
+      "D": "cat notas2.txt >> notas.txt"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El programador de tareas de Windows se utiliza:",
-      "opciones": {
-        "A": "Para marcar los días prioritarios para realizar copias de seguridad.",
-        "B": "Para programar y ejecutar ordenes de programas con una periodicidad para la administración del servidor",
-        "C": "Contemplar aquellas tareas que pueden venir dadas por las actualizaciones del servidor",
-        "D": "Las dos formas que tenemos para programar las tareas es en función del tiempo y del espacio"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "23. ¿Qué instrucción crea un bucle que ejecuta una serie de sentencias hasta terminar una lista de elementos en Shell Scripting?",
+    "opciones": {
+      "A": "while",
+      "B": "for",
+      "C": "until",
+      "D": "do"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "El puerto al que conectamos vía web, por defecto, para la gestión de las impresoras de CUPS es:",
-      "opciones": {
-        "A": "8080",
-        "B": "80",
-        "C": "631",
-        "D": "541"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "24. Indica cuál de las siguientes afirmaciones es correcta sobre agregar una impresora en un equipo Windows que tenemos en un servidor de impresión Linux.",
+    "opciones": {
+      "A": "El rol de servidor de impresión de Windows se llama CUPS",
+      "B": "No se pueden añadir impresoras en Linux.",
+      "C": "No se pueden añadir impresoras en Windows.",
+      "D": "Todas las afirmaciones anteriores son falsas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "En la siguiente imagen (bash script), si tenemos en cuenta que la línea uno es la que pone #!/bin/bash, ¿en qué línea se encuentra el error?",
-      "opciones": {
-        "A": "En la línea 6",
-        "B": "No hay ningún error",
-        "C": "En la línea 4",
-        "D": "En la línea 8"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "25. En los sistemas Windows Server, se pueden otorgar permisos a...",
+    "opciones": {
+      "A": "Usuarios y grupos.",
+      "B": "Solo usuarios.",
+      "C": "Solo grupos",
+      "D": "Todas las anteriores son incorrectas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Indica cuál de las siguientes es una de las opciones de ipconfig",
-      "opciones": {
-        "A": "/all",
-        "B": "/flushdns",
-        "C": "/renew",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "26. ¿Qué rol debemos de seleccionar para promocionar a controlador de dominio en un servidor Windows Server?",
+    "opciones": {
+      "A": "Atestación de mantenimiento del dispositivo.",
+      "B": "Servicios de impresión y documentos.",
+      "C": "Servidor web (IIS)",
+      "D": "Servicios de dominio de Active Directory"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "La estructura de LDAP se divide en:",
-      "opciones": {
-        "A": "Clases, objetos y atributos",
-        "B": "Objetos y atributos",
-        "C": "Clases, atributos y unidades",
-        "D": "Todas son incorrectas."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "27. ¿Cuál de los siguientes comandos sería el ideal para crear una carpeta compartida en Windows usando PowerShell?",
+    "opciones": {
+      "A": "NewShare",
+      "B": "New-SmbShare",
+      "C": "New-Share",
+      "D": "NewCompartida"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "La siguiente imagen (CUPS en SAMBA), ¿para qué se usa?",
-      "opciones": {
-        "A": "Para añadir impresoras en Linux",
-        "B": "Para añadir impresoras en CUPS",
-        "C": "Para activar CUPS con soporte en SAMBA",
-        "D": "Para añadir un usuario en Linux"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "28. El comando ipconfig está disponible en, ¿qué sistema?",
+    "opciones": {
+      "A": "Linux",
+      "B": "Windows",
+      "C": "Mac",
+      "D": "Ninguna de las anteriores es correcta."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Los permisos NTFS:",
-      "opciones": {
-        "A": "Afectan por encima de todo, accediendo tanto de manera remota como en local",
-        "B": "Solo afectan cuando se trabaja de manera local",
-        "C": "Solo afectan cuando se trabaja de manera remota",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "29. ¿En qué sistema operativo se puede promocionar a controlador de dominio?",
+    "opciones": {
+      "A": "Windows Server 2019",
+      "B": "Windows 10 Home",
+      "C": "Windows Mobile",
+      "D": "Windows 10 Education"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Los procesos en Linux...",
-      "opciones": {
-        "A": "Dan lugar a una estructura jerárquica en forma de árbol anidando procesos padres y procesos hijos",
-        "B": "Son independientes unos de otros",
-        "C": "Se crean todos automáticamente por parte del sistema, sin necesidad de existir otros antes",
-        "D": "Se terminan siempre que actualizamos el equipo"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "30. ¿Qué cmdlet de los siguientes es el usado para obtener los servicios de Windows?",
+    "opciones": {
+      "A": "Get-Service",
+      "B": "get-service",
+      "C": "Set-Services",
+      "D": "A y B son correctas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Para el almacenamiento de los usuarios y los grupos en Linux, se usan los ficheros...",
-      "opciones": {
-        "A": "/etc/passwd para los usuarios",
-        "B": "/etc/group para los usuarios también",
-        "C": "No se almacenan en ficheros",
-        "D": "Todas son incorrectas."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "31. Tenemos el siguiente código de un Shell Script (case $x con opciones 1-7). Si insertamos el número 4, ¿qué nos devolverá por pantalla?",
+    "opciones": {
+      "A": "Jueves",
+      "B": "El dia 4 de la semana es jueves",
+      "C": "El dia cuatro de la semana es jueves",
+      "D": "No saldría nada porque el script está mal."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Para visualizar el contenido de un fichero en Linux usamos el comando:",
-      "opciones": {
-        "A": "ls",
-        "B": "mkdir",
-        "C": "cat",
-        "D": "echo"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "32. LDAP son las siglas de...",
+    "opciones": {
+      "A": "Lightweight Directory Access Process",
+      "B": "Light Directory Access Protocol",
+      "C": "Lightweight Discrepccional Access Protocol.",
+      "D": "Lightweight Directory Access Protocol."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Queremos que el contenido de un fichero en Linux llamado notas.txt se añada a otro fichero notas2.txt que ya tiene contenido en su interior y no queremos que se borre, ¿qué comando se debe de usar?",
-      "opciones": {
-        "A": "cat notas.txt >> notas2.txt",
-        "B": "cat notas.txt < notas2.txt",
-        "C": "cat notas.txt > notas2.txt",
-        "D": "cat notas2.txt >> notas.txt"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "33. OpenLDAP es...",
+    "opciones": {
+      "A": "Software libre.",
+      "B": "La implementación de LDAP en sistemas Linux.",
+      "C": "Un paquete descargable en Linux.",
+      "D": "Todas son correctas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Reconocemos que un recurso o archivo es compartido cuando:",
-      "opciones": {
-        "A": "Se comparte a través de correo a otro usuario.",
-        "B": "Se comparte a través de medios de almacenamiento como USB o Discos duros.",
-        "C": "Se reconoce como un recurso que es accesible desde la red y para múltiples usuarios.",
-        "D": "La respuesta b y c son correctas."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "34. ¿Cuál es el principal fichero de configuración de Samba?",
+    "opciones": {
+      "A": "/etc/samba/smb.conf",
+      "B": "/etc/samba/conf.smb",
+      "C": "/samba/samba.conf",
+      "D": "/etc/Smb.conf"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Si activamos el enrutamiento en un servidor Windows Server, ¿en qué interfaz debería implementarse?",
-      "opciones": {
-        "A": "En una interfaz con una dirección IP válida",
-        "B": "En una interfaz que no funcione bajo DHCP",
-        "C": "A y B son correctas",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "35. Para conectar a Samba desde un sistema Windows, ¿cuál de las siguientes rutas hay que especificar?",
+    "opciones": {
+      "A": "\\etc\\samba.conf",
+      "B": "No se puede conectar a Samba desde Windows",
+      "C": "Hay que buscar Samba.com en el navegador web",
+      "D": "\\\\IP_servidor\\recurso_compartido"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Si creamos un equipo en un AD, ¿de cuántos modos se puede hacer?",
-      "opciones": {
-        "A": "4",
-        "B": "3",
-        "C": "2",
-        "D": "6"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "36. Tenemos el siguiente Shell Script (until [ \"$x\" == \"Fin\" ]). Al ejecutarlo, ¿qué palabra tendremos que escribir para que termine el bucle?",
+    "opciones": {
+      "A": "Fin",
+      "B": "FIN",
+      "C": "No hace falta escribir la palabra.",
+      "D": "A y B son correctas"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Si queremos añadir una impresora mediante el sistema de impresión CUPS:",
-      "opciones": {
-        "A": "Se debe acceder mediante Escritorio remoto.",
-        "B": "No se puede crear la conexión a la impresora, pues son sistemas operativos diferentes.",
-        "C": "Se debe añadir una dirección URL, accediendo a la dirección HTTP del recurso CUPS.",
-        "D": "Se debe conectar la impresora al equipo servidor de impresión mediante conexión USB."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "37. Los ficheros de configuración de Netplan siempre tienen la siguiente extensión:",
+    "opciones": {
+      "A": "yml",
+      "B": "net",
+      "C": "html",
+      "D": "Todas las anteriores son incorrectas."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Si vemos la imagen de creación de objeto en AD, ¿Qué estamos creando?",
-      "opciones": {
-        "A": "Un grupo",
-        "B": "Un usuario",
-        "C": "Un equipo",
-        "D": "Otro objeto"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "38. La herramienta gráfica para conectar desde un equipo Windows a un equipo Linux mediante el uso de SSH se llama...",
+    "opciones": {
+      "A": "Putty",
+      "B": "SSH-Windows.",
+      "C": "OpenSSH-win.",
+      "D": "RDP."
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Un cliente SSH Linux debe de tener instalado el paquete:",
-      "opciones": {
-        "A": "SSH-Client",
-        "B": "OpenSSH-Server",
-        "C": "OpenSSH-Client",
-        "D": "OpenSSH"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "39. Los paquetes .deb se gestionan, ¿con qué comando?",
+    "opciones": {
+      "A": "dpkg",
+      "B": "apt",
+      "C": "cache",
+      "D": "apt get"
     },
-    {
-      "test": "Examen 00019",
-      "pregunta": "Una cadena en iptables es:",
-      "opciones": {
-        "A": "La memoria volátil del equipo",
-        "B": "Un dispositivo físico",
-        "C": "Un conjunto de reglas definidas",
-        "D": "A y B son correctas"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    }
-  ],
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen Sistemas Operativos",
+    "pregunta": "40. La opción m de fdisk en Ubuntu sirve para...",
+    "opciones": {
+      "A": "Mostrar la ayuda.",
+      "B": "Mostrar las opciones disponibles de apt.",
+      "C": "Mostrar como crear una nueva partición en Windows.",
+      "D": "Todas son correctas."
+    },
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  }
+],
   "Administración de sistemas gestores de bases de datos": [
-    {
-      "test": "Examen 00012",
-      "pregunta": "¿Cómo se puede garantizar la alta disponibilidad de un SGBD?",
-      "opciones": {
-        "A": "Mediante la redundancia de hardware y software.",
-        "B": "Mediante el balanceo de carga.",
-        "C": "Implementando mecanismos de copias de seguridad y restauración.",
-        "D": "Todas las respuestas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "1. ¿Cuáles son las principales funciones de un administrador de base de datos?",
+    "opciones": {
+      "A": "El mantenimiento de equipos y redes de la organización únicamente",
+      "B": "Selección, despliegue e instalación, configuración y mantenimiento del SGBD",
+      "C": "La selección, despliegue e instalación de los sistemas gestores de bases de datos relacionales únicamente",
+      "D": "El administrador de base de datos siempre es el administrador de sistemas, por lo tanto, administrar las bases de datos es una de sus principales funciones"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "¿Cuál de los siguientes parámetros del comando SHUTDOWN es incorrecto?",
-      "opciones": {
-        "A": "UNMOUNT.",
-        "B": "NORMAL.",
-        "C": "ABORT.",
-        "D": "TRANSACTIONAL."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "2. El Listener:",
+    "opciones": {
+      "A": "Corre bajo un servicio independiente al principal",
+      "B": "Es el programa al que llaman los clientes realizando peticiones por un puerto y protocolo determinado.",
+      "C": "Se configura en el proceso de instalación de Oracle",
+      "D": "Todas son correctas."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "¿Cuáles son las principales funciones de un administrador de base de datos?",
-      "opciones": {
-        "A": "El mantenimiento de equipos y redes de la organización.",
-        "B": "Selección, despliegue e instalación, configuración y mantenimiento del SGBD.",
-        "C": "La selección, despliegue e instalación de los sistemas gestores de bases de datos relacionales.",
-        "D": "El administrador de base de datos siempre es el administrador de sistemas."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "3. Indica la afirmación INCORRECTA sobre la configuración de Oracle:",
+    "opciones": {
+      "A": "La variable de entorno es la ruta donde se guardan las bases de datos y su entorno",
+      "B": "PATH se configura automáticamente durante el proceso de instalación en Windows",
+      "C": "El diccionario de datos de Oracle se almacena en el esquema del usuario SYS",
+      "D": "Como norma general, es recomendable modificar los parámetros de configuración utilizando asistentes o interfaces de usuario."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Completa la primera línea de la siguiente rutina: CREATE OR REPLACE ------- calcular_pi RETURN NUMBER AS",
-      "opciones": {
-        "A": "PROCEDURE",
-        "B": "FUNCTION",
-        "C": "TRIGGER",
-        "D": "CURSOR"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "4. La homogeneidad del acceso a los datos se consigue gracias a:",
+    "opciones": {
+      "A": "Los perfiles.",
+      "B": "Los roles.",
+      "C": "Los sinónimos.",
+      "D": "Todas las anteriores son correctas."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Desde el monitor de rendimiento del SGBD se nos informa de:",
-      "opciones": {
-        "A": "Bloqueos.",
-        "B": "Procesos de alto consumo.",
-        "C": "Consumo de recursos.",
-        "D": "Todos son correctos."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "5. Las sentencias TCL que confirman o cancelan la transacción son:",
+    "opciones": {
+      "A": "Commit y cancel",
+      "B": "Begin Transaction y End Transaction",
+      "C": "RollForward y Rollback",
+      "D": "Ninguna de las anteriores es correcta"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El archivo en formato xml que registra por orden cronológico las secuencias de errores derivados de la operativa diaria del SGBD es:",
-      "opciones": {
-        "A": "Info.log",
-        "B": "Log.xml",
-        "C": "Trace.log",
-        "D": "alert.log"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "6. Indica la afirmación correcta sobre las copias de seguridad en un SGBD:",
+    "opciones": {
+      "A": "Para restaurar una base de datos cuya copia de seguridad se realizó en modo online, se requiere el cuaderno de bitácora",
+      "B": "Las copias online requieren que el SGBD esté conectado a Internet",
+      "C": "Las copias incrementales aumentan la duración del proceso de copia",
+      "D": "Todas son correctas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El comando que apaga todos los servicios de una base de datos en caliente, corriendo el riesgo de inconsistencia y cuyo uso no está recomendado es:",
-      "opciones": {
-        "A": "SHUTDOWN NORMAL.",
-        "B": "SHUTDOWN TRANSACTIONAL.",
-        "C": "SHUTDOWN ABORT.",
-        "D": "SHUTDOWN IMMEDIATE."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "7. Sobre el particionamiento:",
+    "opciones": {
+      "A": "Reduce el uso de los tablespaces porque comprime los datos.",
+      "B": "Es imprescindible para la purga de datos.",
+      "C": "Requiere la reconstrucción de índices cuando se comprime una partición.",
+      "D": "Equivale a desfragmentar las tablas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El cuaderno de bitácora:",
-      "opciones": {
-        "A": "Recoge toda la información de la empresa y sus departamentos.",
-        "B": "Es un documento que registra el DBA y lo incluye en las políticas de seguridad.",
-        "C": "Es un mecanismo que registra las operaciones transaccionales.",
-        "D": "Se registra en papel para no perder la documentación en caso de fallo."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "8. El siguiente código [CREATE OR REPLACE PROCEDURE archivar_facturas...] es un ejemplo de:",
+    "opciones": {
+      "A": "Fragmentación de tablas",
+      "B": "Actualización de estadísticas",
+      "C": "Purgado y paso a histórico",
+      "D": "Todas son correctas."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El objeto que permite referenciar a otro se denomina:",
-      "opciones": {
-        "A": "Archivo de datos (Datafile).",
-        "B": "Esquema externo.",
-        "C": "Rol.",
-        "D": "Sinónimo."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "9. Se trata de un tipo de bases de datos NoSQL:",
+    "opciones": {
+      "A": "Columnares.",
+      "B": "Documentales.",
+      "C": "Grafos.",
+      "D": "Todas son correctas."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El particionamiento de una tabla tiene como ventaja:",
-      "opciones": {
-        "A": "Acceso optimizado a la tabla.",
-        "B": "Facilidad para la purga de datos.",
-        "C": "Optimización de tareas de administración.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "10. Un grupo de tiendas en fase de expansión... ¿Qué solución inicial de base de datos recomendarías, teniendo en cuenta criterios de coste y tiempo?",
+    "opciones": {
+      "A": "Un SGBD en configuración cluster para reutilizar los equipos antiguos",
+      "B": "Un SGBDD con un nodo en cada sede para la interconexión de tiendas",
+      "C": "Un SGBD en la nube",
+      "D": "Un servidor centralizado ubicado físicamente en la tienda principal"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El tablespace que guarda la información de respaldo durante una transacción en caso de rollback es:",
-      "opciones": {
-        "A": "De sistema.",
-        "B": "De registro.",
-        "C": "Temporal.",
-        "D": "De usuario."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "11. ¿Cuál de las siguientes acciones es habitual que realice el Administrador de Base de Datos (DBA)?",
+    "opciones": {
+      "A": "Implementar estrategias de marketing",
+      "B": "Realizar copias de seguridad periódicas",
+      "C": "Establecer políticas de recursos humanos.",
+      "D": "Realizar auditorías financieras"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "El trabajo de documentación de la instalación y configuración del SGBD:",
-      "opciones": {
-        "A": "Es fundamental y forma parte de las políticas de seguridad.",
-        "B": "Es una de las funciones del DBA.",
-        "C": "Debe incluir hardware, conectividad y sistema operativo.",
-        "D": "Todas las anteriores son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "12. ¿Dónde se almacenan los metadatos en un SGBD?",
+    "opciones": {
+      "A": "En el escritorio de los sistemas Windows",
+      "B": "En el fichero metadata.exe",
+      "C": "En el diccionario de datos",
+      "D": "Todas las anteriores son incorrectas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "En cuanto a la optimización de la base de datos, indica la correcta:",
-      "opciones": {
-        "A": "Evitar operaciones de conversión de datos.",
-        "B": "Elegir tipos de datos evitando el desbordamiento.",
-        "C": "Evitar el uso de campos calculados.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "13. En un cliente de base de datos, los parámetros como red, direcciones IP etc. pueden configurar desde:",
+    "opciones": {
+      "A": "El equipo servidor.",
+      "B": "Cualquier equipo no conectado al cliente",
+      "C": "Un servidor Windows Server 2019 únicamente",
+      "D": "Una interfaz web alojada en el cliente únicamente."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "En el proceso de optimización de un SGBD, lo primero que se recomienda analizar es:",
-      "opciones": {
-        "A": "El plan de ejecución.",
-        "B": "El porcentaje de fragmentación de las tablas.",
-        "C": "Los recursos de hardware y SO del servidor.",
-        "D": "Los procesos de auditoría y registros de errores."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "14. Las dos cuentas creadas en Oracle para administración del SGBD son:",
+    "opciones": {
+      "A": "SYS y SYSTEM",
+      "B": "DBA y SYSTEM",
+      "C": "SYS y DBA",
+      "D": "Solo se crea la cuenta de SYSTEM, SYS es la abreviación de la misma"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "En los SGBD de Oracle, las rutinas que se autoejecutan ante un evento en su tabla se llaman:",
-      "opciones": {
-        "A": "Procedimientos.",
-        "B": "Disparadores (triggers).",
-        "C": "Funciones.",
-        "D": "Parámetros."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "15. ¿Qué perfil se asigna automáticamente en Oracle cuando se crea un nuevo usuario?",
+    "opciones": {
+      "A": "DBA",
+      "B": "DEFAULT",
+      "C": "SYS",
+      "D": "Multiusuario."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "GRANT <privilegio> TO <usuario> es un ejemplo de:",
-      "opciones": {
-        "A": "DDL.",
-        "B": "DML.",
-        "C": "DCL.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "16. En el contexto de gestión de usuarios... ¿qué se recomienda para facilitar la auditoría de la información?",
+    "opciones": {
+      "A": "Crear un único usuario para todas las aplicaciones.",
+      "B": "Otorgar permisos totales a cada usuario de la aplicación",
+      "C": "Limitar el acceso de las aplicaciones a la información.",
+      "D": "Registrar el usuario de la aplicación sobre las operaciones realizadas."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Indica la afirmación correcta sobre las funciones MAC y HASH:",
-      "opciones": {
-        "A": "La función Hash es más segura que la MAC.",
-        "B": "Hash encripta y MAC desencripta.",
-        "C": "La función Hash puede ser sensible a ataques por diccionario.",
-        "D": "Ninguna es correcta."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "17. Indica cuál de los siguientes es un ejemplo de ataque a un SGBD que se pueden detectar mediante el uso de auditorías:",
+    "opciones": {
+      "A": "Accesos no autorizados al sistema.",
+      "B": "Desbordamiento de memoria.",
+      "C": "Inyección de Código SQL",
+      "D": "Todas son correctas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La compresión de datos en tablas:",
-      "opciones": {
-        "A": "Es conveniente cuando no se esperan cambios en los datos.",
-        "B": "Requiere reconstrucción de índices.",
-        "C": "Penaliza las operaciones de modificaciones de datos.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "18. El tipo de copia de seguridad de bases de datos que se hace con la base de datos cerrada es:",
+    "opciones": {
+      "A": "Online.",
+      "B": "Offline.",
+      "C": "Inline",
+      "D": "Noline."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La cuenta SYSTEM dentro de un SGBD de Oracle:",
-      "opciones": {
-        "A": "Se crea con la instalación.",
-        "B": "Se usa para operaciones de administración.",
-        "C": "Tiene el rol de DBA.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "19. La siguiente sentencia de SQL [ALTER SESSION SET TRANSACTION ISOLATION LEVEL SERIALIZABLE] ¿Para qué se usa?",
+    "opciones": {
+      "A": "Para modificar niveles de aislamiento en Oracle.",
+      "B": "Para crear usuarios nuevos en Oracle.",
+      "C": "Para modificar vistas en Oracle.",
+      "D": "Para modificar tablas en Oracle."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La función de encriptación MAC dentro del SGBD:",
-      "opciones": {
-        "A": "No se puede desencriptar.",
-        "B": "Agrega una clave de encriptación necesaria para el cifrado.",
-        "C": "Protege ante ataques por fuerza bruta.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "20. ¿Cuál de los siguientes logs de Oracle son ejemplo de eventos que se pueden almacenar en el registro de errores?",
+    "opciones": {
+      "A": "Paradas.",
+      "B": "Errores o avisos",
+      "C": "A y B son correctas",
+      "D": "Ninguna de las anteriores es correcta."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La herramienta de Oracle que propone mejoras para optimizar consultas frecuentes se llama:",
-      "opciones": {
-        "A": "SQL Monitor Advisor.",
-        "B": "SQL Tunning Advisor.",
-        "C": "SQL Measurements.",
-        "D": "SQL Optimization Manager."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "21. Para poder optimizar el servidor donde se encuentra instalado el SGBD, hay tareas que puede que requieran de privilegios de:",
+    "opciones": {
+      "A": "Invitado",
+      "B": "Usuario anónimo",
+      "C": "Administrador.",
+      "D": "Usuario cualificado"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La homogeneidad del acceso a los datos se consigue gracias a:",
-      "opciones": {
-        "A": "Los perfiles.",
-        "B": "Los roles.",
-        "C": "Los sinónimos.",
-        "D": "Todas las anteriores son correctas."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "22. La siguiente sintaxis de PLSQL [CREATE OR REPLACE FUNCTION...] se usa para:",
+    "opciones": {
+      "A": "Crear usuarios únicamente",
+      "B": "Crear funciones.",
+      "C": "Crear tablas únicamente",
+      "D": "No existe esta sintaxis en PLSQL"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La ley LOPD establece que los derechos sobre datos están sometidos a:",
-      "opciones": {
-        "A": "Acceso, rectificación, cancelación y oposición.",
-        "B": "Acceso, modificación y cancelación.",
-        "C": "Creación, rectificación y oposición.",
-        "D": "Creación y modificación."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "23. Las tareas definidas por el DBA de un SGBD y que tienen como objetivo el mantenimiento de este se conocen como:",
+    "opciones": {
+      "A": "Tareas de administración",
+      "B": "Tareas de usuarios comunes.",
+      "C": "Tareas optimizadas.",
+      "D": "Tareas de PLSQL"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "La tecnología de Oracle para alta disponibilidad y balanceo mediante clústers se llama:",
-      "opciones": {
-        "A": "Oracle Cluster Technology (OCT).",
-        "B": "Real Application Clusters (RAC).",
-        "C": "Shared Info Clusters (SIC).",
-        "D": "Multi Node Cluster Database (MNCDB)."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "24. SGBDD son las siglas de:",
+    "opciones": {
+      "A": "Sistema Gestor de Bases de Datos Distribuido",
+      "B": "Sistema Gestor de Base de Datos de Oracle.",
+      "C": "Sistema Gestor de Base de Datos Dinámico.",
+      "D": "Sistema Gestor de Base de Datos por Defecto"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Las restricciones comunes para garantizar integridad son:",
-      "opciones": {
-        "A": "Nulidad, unicidad, TDE y ACID.",
-        "B": "Auditadas, no auditadas, activas y pasivas.",
-        "C": "Claves, valores por defecto, verificación y disparadores.",
-        "D": "Ninguna es correcta."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "25. ¿Cuál de los siguientes parámetros del comando SHUTDOWN es incorrecto?",
+    "opciones": {
+      "A": "NORMAL",
+      "B": "UNMOUNT.",
+      "C": "ABORT",
+      "D": "TRANSACTIONAL"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Las instrucciones CREATE, ALTER y DROP pertenecen al:",
-      "opciones": {
-        "A": "DDL.",
-        "B": "DCL.",
-        "C": "SCL.",
-        "D": "TCL."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "26. Por su estructura, los SGBD se pueden clasificar en:",
+    "opciones": {
+      "A": "Monousuario y multiusuario.",
+      "B": "Local o en la nube.",
+      "C": "Relacionales y No relacionales.",
+      "D": "Columnares o de Grafos."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Los DBMS que utilizan una base de datos alojada en varios servidores son:",
-      "opciones": {
-        "A": "Centralizados.",
-        "B": "Distribuidos.",
-        "C": "Propietarios.",
-        "D": "Multiusuario."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "27. La compresión de datos en tablas:",
+    "opciones": {
+      "A": "Es conveniente realizarla cuando no se esperan cambios en los datos de la tabla.",
+      "B": "Requiere reconstrucción de índices.",
+      "C": "Penaliza las operaciones de modificaciones de datos.",
+      "D": "Todas son correctas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Los metadatos se definen a través de:",
-      "opciones": {
-        "A": "El lenguaje de definición de datos (DDL).",
-        "B": "El lenguaje de modificación de datos (DML).",
-        "C": "El lenguaje de control de transacciones (TCL).",
-        "D": "El lenguaje de control de datos (DCL)."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "28. Para crear o modificar roles a nivel global en un SGBD de Oracle debemos especificar el parámetro:",
+    "opciones": {
+      "A": "CONSTRAIN ALL",
+      "B": "ALL USERS",
+      "C": "GLOBAL CONSTRAIN",
+      "D": "CONTAINER=ALL"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Los perfiles en un SGBD son útiles para:",
-      "opciones": {
-        "A": "Prevenir saturación de recursos.",
-        "B": "Obligar a cambiar contraseñas.",
-        "C": "Configurarse a nivel local (PDB) o global.",
-        "D": "Todas las anteriores son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "29. Los SGBD distribuidos en los que la información se reparte entre los nodos y cada uno gestiona una parte se denominan:",
+    "opciones": {
+      "A": "Centralizados",
+      "B": "Distribuidos con nodo principal.",
+      "C": "Fragmentados.",
+      "D": "Replicados"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Los permisos de un rol o usuario pueden ser a nivel de:",
-      "opciones": {
-        "A": "Sistema.",
-        "B": "Objetos.",
-        "C": "Las dos anteriores son correctas.",
-        "D": "Ninguna es correcta."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "30. La LOPD establece que los derechos de los propietarios sobre sus datos están sometidos a:",
+    "opciones": {
+      "A": "Acceso, modificación y cancelación",
+      "B": "Acceso, rectificación, cancelación y oposición.",
+      "C": "Creación, rectificación y oposición.",
+      "D": "Creación y modificación"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Los SGBD distribuidos donde cada nodo gestiona una parte de la BD se denominan:",
-      "opciones": {
-        "A": "Centralizada.",
-        "B": "Distribuida con nodo principal.",
-        "C": "Fragmentada.",
-        "D": "Replicada."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "31. Las restricciones son medidas para garantizar la integridad de los datos. Cuatro de las más comunes son:",
+    "opciones": {
+      "A": "Claves, valores por defecto, verificación y disparadores.",
+      "B": "Nulidad, unicidad. TDE y ACID",
+      "C": "Auditadas no auditadas, activas y pasivas",
+      "D": "Ninguna de las anteriores es correcta."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Para crear o modificar roles a nivel global en Oracle se usa el parámetro:",
-      "opciones": {
-        "A": "CONTAINER = ALL.",
-        "B": "CONSTRAIN ALL.",
-        "C": "ALL USERS.",
-        "D": "GLOBAL CONSTRAIN."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "32. El cuaderno de bitácora:",
+    "opciones": {
+      "A": "Recoge toda la información de la empresa y sus departamentos.",
+      "B": "Es un documento que registra el DBS y lo incluye en las políticas de seguridad",
+      "C": "Se registra en papel para no perder la documentación sobre la base de datos en caso de fallo",
+      "D": "Es un mecanismo que registra las operaciones transaccionales."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Por su estructura, los SGBD se clasifican en:",
-      "opciones": {
-        "A": "Relacionales y No relacionales.",
-        "B": "Monousuario y multiusuario.",
-        "C": "Local o en la nube.",
-        "D": "Columnares o de Grafos."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "33. Los metadatos se definen a través de:",
+    "opciones": {
+      "A": "El lenguaje de definición de datos (DDL).",
+      "B": "El lenguaje de modificación de datos (DML).",
+      "C": "El lenguaje de control de transacciones (TCL).",
+      "D": "El lenguaje de control de datos (DCL)."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Se trata de un tipo de bases de datos NoSQL:",
-      "opciones": {
-        "A": "Columnares.",
-        "B": "Documentales.",
-        "C": "Grafos.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "34. El comando que apaga todos los servicios de una base de datos en caliente, corriendo el riesgo de inconsistencia:",
+    "opciones": {
+      "A": "SHUTDOWN NORMAL",
+      "B": "SHUTDOWN TRANSACTIONAL",
+      "C": "SHUTDOWN ABORT",
+      "D": "SHUTDOWN IMMEDIATE"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Si la auditoría almacena registros en el SO, el valor de 'audit_trail' es:",
-      "opciones": {
-        "A": "db.",
-        "B": "none.",
-        "C": "os.",
-        "D": "xml."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "35. En los SGBD de Oracle, las rutinas que se autoejecutan cuando se produce un determinado evento se denominan:",
+    "opciones": {
+      "A": "Procedimientos.",
+      "B": "Disparadores (triggers).",
+      "C": "Funciones",
+      "D": "Parámetros"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Sobre el plan de ejecución, indica la correcta:",
-      "opciones": {
-        "A": "El DBA puede acceder manualmente a su contenido.",
-        "B": "Es propio de cada sistema gestor.",
-        "C": "Es un proceso automático del sistema gestor.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "36. El archivo en formato XML, que registra por orden cronológico las secuencias de errores es:",
+    "opciones": {
+      "A": "info.log",
+      "B": "log.xml",
+      "C": "alert.log",
+      "D": "trace.log"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Sobre las estadísticas en Oracle:",
-      "opciones": {
-        "A": "Es preferible actualizar índices antes que estadísticas.",
-        "B": "Se guardan en el diccionario y se usa el paquete DBMS_STATS.",
-        "C": "El plan de ejecución siempre las actualiza antes de consultar.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
+    "respuesta_correcta": "C",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "37. Las siguientes instrucciones: CREATE, ALTER Y DROP, son ejemplos de:",
+    "opciones": {
+      "A": "DDL",
+      "B": "DCL",
+      "C": "SCL",
+      "D": "TCL"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Un clúster de servidores en un SGBD:",
-      "opciones": {
-        "A": "Conecta datos entre MySQL y Oracle.",
-        "B": "Solución ideal para problemas de localización.",
-        "C": "Aporta balanceo de carga entre nodos.",
-        "D": "Las otras son falsas."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "A",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "38. Los DBMS que utilizan una base de datos alojada en varios servidores son:",
+    "opciones": {
+      "A": "Centralizados.",
+      "B": "Distribuidos",
+      "C": "Propietarios",
+      "D": "Multiusuario."
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "Un DBLink facilita:",
-      "opciones": {
-        "A": "Conectar datos entre MySQL y Oracle.",
-        "B": "Conectar dos sedes en un SGBDD.",
-        "C": "Consultas a tablas fragmentadas en diferentes nodos.",
-        "D": "Todas son correctas."
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "39. Un DBLink, generalmente:",
+    "opciones": {
+      "A": "Permite conectar datos entre MySQL y Oracle.",
+      "B": "Facilita consultas a tablas fragmentadas en diferentes nodos",
+      "C": "Permite conectar dos sedes físicas en un SGBDD",
+      "D": "Todas son correctas"
     },
-    {
-      "test": "Examen 00012",
-      "pregunta": "¿Qué perfil se asigna automáticamente en Oracle al crear un usuario?",
-      "opciones": {
-        "A": "DBA",
-        "B": "DEFAULT",
-        "C": "SYS",
-        "D": "Multiusuario."
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    }
-  ],
+    "respuesta_correcta": "B",
+    "pregunta_examen": true
+  },
+  {
+    "test": "Examen SGBD 00012",
+    "pregunta": "40. Sobre el plan de ejecución:",
+    "opciones": {
+      "A": "El DBA puede acceder manualmente a su contenido para conocer el orden de ejecución.",
+      "B": "Es propio de cada sistema gestor.",
+      "C": "Es un proceso automático del sistema gestor",
+      "D": "Todas son correctas"
+    },
+    "respuesta_correcta": "D",
+    "pregunta_examen": true
+  }
+],
 
   "Itinerario personal para la empleabilidad II": [
     {
@@ -3616,382 +3616,167 @@
       "pregunta_examen": true
     }
   ],
-  "Implantación de aplicaciones web": [
+
+ "Implantación de aplicaciones web": [
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cómo se asigna una variable mediante referencia en PHP?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "1. Una aplicación web con servicios similares o iguales a una aplicación de escritorio es llamada:",
       "opciones": {
-        "A": "$variable = valor;",
-        "B": "variable1 = variable2;",
-        "C": "$variable1 = &&variable2;",
-        "D": "$variable1 = &$variable2;"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cómo se conoce al mecanismo que nos permite almacenar datos del usuario respecto a las páginas web que se alojan en el mismo navegador?",
-      "opciones": {
-        "A": "Sesión diferida",
-        "B": "Cookies",
-        "C": "Se almacenas en el SGBD",
-        "D": "Se almacena en las variables globales de PHP"
+        "A": "AWE",
+        "B": "RIA",
+        "C": "WIA",
+        "D": "Todas las anteriores son incorrectas"
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cuáles de las siguientes afirmaciones sobre CSS no son correctas?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "2. Una de las nuevas características de las aplicaciones de ofimáticas web es:",
       "opciones": {
-        "A": "Permite dar formato a un documento construido con un lenguaje de marcas",
-        "B": "Permite dar formato a un documento construido con un lenguaje de marcas sólo utilizando un plugin",
-        "C": "Son las siglas de Cascade Style Sheet",
-        "D": "Se pueden usar media queries"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cuáles de las siguientes no son características de WordPress?",
-      "opciones": {
-        "A": "Se debe contratar una versión de pago para poder tener más de un idioma",
-        "B": "Es open source",
-        "C": "Tiene una comunidad activa de colaboradores",
-        "D": "Ofrece la posibilidad de instalar plugins para mejorar el SEO"
+        "A": "El almacenaje automático de los documentos",
+        "B": "La posibilidad de editar de forma segura los documentos",
+        "C": "La posibilidad de editar documentos en local",
+        "D": "Posibilidad de acceder a los documentos sin conexión a Internet"
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cuáles de los siguiente son ejemplos de entornos de trabajo para PHP?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "3. El servidor de aplicaciones web más usado es:",
       "opciones": {
-        "A": "Eclipse",
-        "B": "MySQLWorkbench",
-        "C": "FileZilla",
-        "D": "XAMPP"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cuáles de los siguientes son requisitos de una web 2.0?",
-      "opciones": {
-        "A": "Son aplicaciones ricas en internet, con aplicaciones similares a las de escritorio",
-        "B": "Dispone de web social",
-        "C": "Dispone de una arquitectura orientada a servicio",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Cuáles son los pasos necesarios para establecer una conexión correcta a una base de datos MySQL?",
-      "opciones": {
-        "A": "Establecer conexión MySQL, Ejecutar sentencias, cerrar conexión",
-        "B": "Establecer conexión, Crear usuario y cerrar conexión",
-        "C": "No es necesario establecer conexión podemos ejecutar las sentencias SQL directamente",
+        "A": "Nginxe",
+        "B": "IISe",
+        "C": "Apache",
         "D": "Ninguna de las anteriores es correcta"
       },
-      "respuesta_correcta": "A",
+      "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Para qué se usa un operador?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "4. Las suites surgieron por la necesidad de:",
       "opciones": {
-        "A": "Para establecer las comparaciones o evaluar casos en los bucles",
-        "B": "Para sumar y restar únicamente variables",
-        "C": "Para asignar valores a variables únicamente",
-        "D": "Para trabajar con if únicamente"
+        "A": "Almacenar todos los archivos en un mismo lugar",
+        "B": "Trabajar con gente únicamente de la organización",
+        "C": "Tener más control sobre los archivos",
+        "D": "Tener más seguridad en el acceso a los archivos"
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué acción nos permite realizar una taxonomía?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "5. Bitnami permite:",
       "opciones": {
-        "A": "Permite agrupar entradas del blog por conceptos",
-        "B": "Permite crear menús específicos",
-        "C": "Permite indicar el idioma en el que está el recurso",
-        "D": "Permite activar los campos que mejoran el SEO"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué acciones son necesarias para la instalación de un WordPress en un hosting web?",
-      "opciones": {
-        "A": "Descargar y añadir Wordpress en el hosting",
-        "B": "Hacer una configuración previa",
-        "C": "Crear un usuario para wordpress",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué afirmación sobre PHP es falsa?",
-      "opciones": {
-        "A": "Sus variables son de tipado débil",
-        "B": "Las variables PHP siempre van precedidas por un $",
-        "C": "Tiene tres tipos de datos escalares integer, float y string",
-        "D": "Es un lenguaje de programación de scripts de servidor flexible"
+        "A": "Trabajar con aplicaciones web",
+        "B": "Crear RIOS",
+        "C": "Instalar servidores",
+        "D": "Ninguna de las anteriores es correcta"
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué elementos son necesarios tener instalados para poder instalar WordPress?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "6. La pérdida del control total de los datos por utilizar servidores externos es:",
       "opciones": {
-        "A": "Una base de datos únicamente",
-        "B": "Una base de datos y un servidor web",
-        "C": "Un servidor web únicamente",
-        "D": "Ninguna de las respuestas es correcta"
+        "A": "Una desventaja de las suites ofimáticas",
+        "B": "Una desventaja de las aplicaciones ofimáticas web",
+        "C": "Una desventaja de las bases de datos",
+        "D": "Ninguna de las anteriores es correcta"
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué es una inyección SQL?",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "7. La elección de un CMS debe hacerse evitando:",
       "opciones": {
-        "A": "Una instrucción SQL específica para dar permisos de administrador a un usuario común.",
-        "B": "Una amenaza de seguridad bastante frecuente en páginas web",
-        "C": "Es una técnica de optimización para SGBD",
-        "D": "Todas las afirmaciones son incorrectas"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué es XAMPP?",
-      "opciones": {
-        "A": "Un SGBD propio de WordPress",
-        "B": "Un fichero de configuración propio de WordPress",
-        "C": "Un plugin para la gestión y edición de formularios",
-        "D": "Un paquete que permite configurar un servicio web apache, MySQL, php, etc."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué etiqueta se usa para comenzar a escribir código PHP?",
-      "opciones": {
-        "A": "?>",
-        "B": "<?",
-        "C": "<",
-        "D": "?"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué fichero podemos modificar para asegurar la información de nuestra página web?",
-      "opciones": {
-        "A": "php.php",
-        "B": "ini.php",
-        "C": "php.conf",
-        "D": "php.ini"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué habrá que añadir a la URL del sitio web pàra poder acceder a la configuración de administardor de WordPress?",
-      "opciones": {
-        "A": "/wpadmin",
-        "B": "/admin",
-        "C": "/admin-wp",
-        "D": "/wp-admin"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "¿Qué tipos de datos escalares existen?",
-      "opciones": {
-        "A": "integer, float, boolean y string",
-        "B": "integer, float y boolean",
-        "C": "float, boolean y string",
-        "D": "integer, boolean y string"
+        "A": "Su marketing",
+        "B": "Su notoriedad",
+        "C": "Nuestras necesidades",
+        "D": "Su coste"
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Capacidad de mudar archivos o datos de un servidor a otro:",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "8. Los gestores de redes sociales:",
       "opciones": {
-        "A": "Vectorización",
-        "B": "Virtualización",
-        "C": "Migración",
-        "D": "Ninguna de las anteriores"
+        "A": "Se usan sólo por usuarios individuales",
+        "B": "Se emplean sólo por entidades",
+        "C": "Se emplean por ambos por igual",
+        "D": "Ninguna de las anteriores es correcta, estos gestores están destinados a programadores"
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Cuando hablamos de un servicio webOS nos referimos a:",
-      "opciones": {
-        "A": "Virtualización de una suite de ofimática",
-        "B": "Virtualización de varios sistemas operativos remotamente en la nube",
-        "C": "Programas que simulan un escritorio remoto",
-        "D": "Virtualización de un sistema operativo remotamente solo para nube privada"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Cuando nos referimos a aplicaciones RIA hablamos de:",
-      "opciones": {
-        "A": "Aplicaciones web con servicios similares o iguales a la aplicación de escritorio",
-        "B": "Es un SGBD utilizado para gestionar páginas web",
-        "C": "Aplicaciones web que permiten al usuario publicar contenido online",
-        "D": "Aplicaciones que ayudan al programador a crear el código de una página web"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Dentro de los diferentes tipos de nubes “software as service” posee las siglas de:",
-      "opciones": {
-        "A": "SaaS.",
-        "B": "PasS.",
-        "C": "IaaS.",
-        "D": "SasS."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "El acceso a un conjunto de aplicaciones que simula el escritorio para la comodidad del usuario es llamado:",
-      "opciones": {
-        "A": "SSB",
-        "B": "SaaS",
-        "C": "IaaS",
-        "D": "Ninguna de las anteriores"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "El componente de WordPress que se enlaza a las categorías, a las páginas y a las entradas de nuestro sitio web o a enlaces personalizados se llama:",
-      "opciones": {
-        "A": "Menu.",
-        "B": "Slug.",
-        "C": "Permalink.",
-        "D": "Post."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "El servidor de aplicaciones web más usado es:",
-      "opciones": {
-        "A": "Apache",
-        "B": "Nginx.",
-        "C": "IIS.",
-        "D": "Ninguna de las anteriores es correcta."
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "En la arquitectura de tres niveles puede ser llamado de negociación:",
-      "opciones": {
-        "A": "Servidor cliente",
-        "B": "Servidor de aplicación",
-        "C": "Servidor de base de datos",
-        "D": "Servidor de autentificación"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Indica cuales de las siguientes son ventajas de las aplicaciones web:",
-      "opciones": {
-        "A": "Datos centralizados",
-        "B": "No requiere instalación",
-        "C": "Actualizaciones costantes y sin costes",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "La biblioteca de medios permite gestionar",
-      "opciones": {
-        "A": "Las imágenes",
-        "B": "Los comentarios.",
-        "C": "Los plugins.",
-        "D": "Los usuarios"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "La interacción con la web en lenguaje humano pertenece a:",
-      "opciones": {
-        "A": "Web 1.0.",
-        "B": "Web 2.0.",
-        "C": "Web 3.0.",
-        "D": "Web 4.0."
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "La licencia GPL:",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "9. La licencia GPL:",
       "opciones": {
         "A": "Es un software libre",
         "B": "Es un software de código abierto",
-        "C": "Puede, o no, ser gratuito",
-        "D": "Todas las anteriores son correctas"
+        "C": "Todas son correctas",
+        "D": "Puede, o no, ser gratuito"
       },
-      "respuesta_correcta": "D",
+      "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Las principales diferencias entre cookies y sesiones se basan en:",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "10. Los widgets son:",
       "opciones": {
-        "A": "Ubicación y accesibilidad",
-        "B": "Ubicación y persistencia",
-        "C": "Persistencia y accesibilidad",
-        "D": "Persistencia y flexibilidad"
+        "A": "En blogs, elementos que permiten crear plantillas",
+        "B": "Pequeños programas que permiten personalizar la página",
+        "C": "Elementos que permiten la actualización automática de la página a través de la base de datos",
+        "D": "Todas son correctas"
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Las variables que encontramos disponibles en cualquier ámbito son conocidas en PHP como:",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "11. La página raíz del sitio web es llamada:",
+      "opciones": {
+        "A": "Preweb",
+        "B": "Post",
+        "C": "Home page",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "12. En WordPress los temas son:",
+      "opciones": {
+        "A": "Gratuitos",
+        "B": "De pago",
+        "C": "WordPress no usa temas",
+        "D": "Ambos, depende del tema que deseemos"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "13. Cada entrada deberá contener este elemento:",
+      "opciones": {
+        "A": "Título",
+        "B": "Fecha de publicación",
+        "C": "Contenido",
+        "D": "Todas son correctas"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "14. Las variables que encontramos disponibles en cualquier ámbito son conocidas en PHP como:",
       "opciones": {
         "A": "Extensas",
         "B": "Superglobales",
@@ -4002,8 +3787,32 @@
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Los servicios en la nube pueden clasificarse según su ubicación y dueño como:",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "15. ¿Cuáles de los siguientes son ejemplos de entornos de trabajo para PHP?",
+      "opciones": {
+        "A": "Todas son correctas",
+        "B": "Eclipse",
+        "C": "Aptana",
+        "D": "PHPStorm"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "16. ¿Qué tipos de datos escalares existen?",
+      "opciones": {
+        "A": "integer, float y boolean",
+        "B": "float, boolean y string",
+        "C": "integer, boolean y string",
+        "D": "integer, float, boolean y string"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "17. Los servicios en la nube pueden clasificarse según su ubicación y dueño como:",
       "opciones": {
         "A": "Nube pública, privada, híbrida",
         "B": "Nube privada, pública",
@@ -4014,19 +3823,511 @@
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Los widgets son:",
-      "options": {
-        "A": "En blogs, elementos que permiten crear plantillas",
-        "B": "Elementos que permiten la actualización automática de la página a través de la base de datos",
-        "C": "Pequeños programas que permiten personalizar la página",
-        "D": "Todas las anteriores son correctas"
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "18. ¿Qué es XAMPP?",
+      "opciones": {
+        "A": "Un SGBD propio de WordPress",
+        "B": "Un fichero de configuración propio de WordPress",
+        "C": "Un plugin para la gestión y edición de formularios",
+        "D": "Un paquete que permite configurar un servicio web apache, MySQL, php, etc."
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "19. ¿Qué fichero podemos modificar para asegurar la información de una página web?",
+      "opciones": {
+        "A": "php.php",
+        "B": "php.ini",
+        "C": "iniphp",
+        "D": "php.conf"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "20. Las principales diferencias entre cookies y sesiones se basan en:",
+      "opciones": {
+        "A": "Ubicación y persistencia",
+        "B": "Ubicación y accesibilidad",
+        "C": "Persistencia y accesibilidad",
+        "D": "Persistencia y flexibilidad"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "21. Un ejemplo de SGBD es:",
+      "opciones": {
+        "A": "Microsoft Exchange",
+        "B": "Dovecot",
+        "C": "Postfix",
+        "D": "MySQL"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "22. Cuando hablamos de un servicio WebOS nos referimos a:",
+      "opciones": {
+        "A": "Virtualización de una suite de ofimática",
+        "B": "Virtualización de varios sistemas operativos remotamente en la nube",
+        "C": "Programas que simulan un escritorio remoto",
+        "D": "Virtualización de un sistema operativo remotamente solo para nube privada"
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "23. ¿Cuál de las siguientes no es una característica de WordPress?",
+      "opciones": {
+        "A": "Se debe contratar una versión de pago para poder tener más de un idioma",
+        "B": "Es open source",
+        "C": "Tiene una comunidad activa de colaboradores",
+        "D": "Ofrece la posibilidad de instalar plugins para mejorar el SEO"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "24. ¿Para qué se usa un operador?",
+      "opciones": {
+        "A": "Para establecer las comparaciones o evaluar casos en los bucles entre otros casos",
+        "B": "Para sumar y restar únicamente variables",
+        "C": "Para asignar valores a variables únicamente",
+        "D": "Para trabajar con if únicamente"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "25. ¿Qué acción nos permite realizar una taxonomía?",
+      "opciones": {
+        "A": "Permite crear menús específicos",
+        "B": "Permite indicar el idioma en el que está el recurso",
+        "C": "Permite agrupar entradas del blog por conceptos",
+        "D": "Permite activar los campos que mejoran el SEO"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "26. ¿Cuál de los siguientes es un ciberdelito?",
+      "opciones": {
+        "A": "Acceso cíclico",
+        "B": "Inferencia de red",
+        "C": "Intercepción ilícita",
+        "D": "Intercepción lícita"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "27. ¿Qué afirmación sobre el tipo de nube PaaS es cierta?",
+      "opciones": {
+        "A": "Este tipo de solución es una solución local no en la nube",
+        "B": "Servicios integrados en una plataforma que permite desarrollar software",
+        "C": "Es una solución no recomendada para programadores novatos",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "28. La licencia GPL de un software permite:",
+      "opciones": {
+        "A": "Su distribución, uso y modificación",
+        "B": "Únicamente su distribución",
+        "C": "Únicamente su uso",
+        "D": "Su distribución y uso"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "29. En cuanto al desarrollo de una página web, ¿qué parte es la visible o pública?",
+      "opciones": {
+        "A": "Back-end",
+        "B": "Front-end",
+        "C": "Full stack",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "30. ¿Qué permite tener una optimización y carga rápida del sitio web?",
+      "opciones": {
+        "A": "No tener un diseño responsive para móviles",
+        "B": "Activar todas las clases Java",
+        "C": "Aumentar el peso de las imágenes",
+        "D": "Reducir el peso de las imágenes"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "31. ¿Cómo se asigna una variable mediante referencia en PHP?",
+      "opciones": {
+        "A": "$variable = valor;",
+        "B": "variable1 = variable2;",
+        "C": "$variable1 = &&variable2;",
+        "D": "$variable1 = &$variable2;"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "32. ¿Qué variable o variables de PHP utiliza los parámetros enviados por los formularios?",
+      "opciones": {
+        "A": "$_GET y $_POST",
+        "B": "$_SERVER",
+        "C": "$DATA",
+        "D": "$RETRIEVE"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "33. ¿Qué opción permite posicionar la web en las búsquedas de los usuarios?",
+      "opciones": {
+        "A": "Palabras básicas",
+        "B": "Palabras SEO",
+        "C": "Enlaces permanentes",
+        "D": "Gestionar privacidad de los comentarios"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "34. ¿Qué operador de PHP se utiliza para comprobar si un valor de una variable es igual a otro, pero no comprueba que sea el mismo tipo?",
+      "opciones": {
+        "A": "a == b",
+        "B": "a <> b",
+        "C": "a != b",
+        "D": "a = b"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "35. Microsoft Azure es un ejemplo de nube de tipo:",
+      "opciones": {
+        "A": "SaaS",
+        "B": "IaaS",
+        "C": "Isas!",
+        "D": "PaaS"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "36. ¿Qué tipos de API podemos utilizar para conectar con MySQL mediante PHP?",
+      "opciones": {
+        "A": "MySQLi",
+        "B": "PDO",
+        "C": "PDD",
+        "D": "A y B son correctas"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "37. ¿Qué amenaza de seguridad informática es la más común en páginas web?",
+      "opciones": {
+        "A": "Malware",
+        "B": "Troyanos",
+        "C": "Inyecciones SQL",
+        "D": "Spyware"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "38. ¿Qué métodos usa PHP para almacenar datos de usuario y enviarlos a otra página?",
+      "opciones": {
+        "A": "Cookies y sesiones",
+        "B": "Cookies",
+        "C": "Sesiones",
+        "D": "Persistence"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "39. ¿En qué consiste un proceso de migración realizado entre dos servidores?",
+      "opciones": {
+        "A": "Virtualizar un sistema operativo en un servidor",
+        "B": "Cambiar archivos o datos de un servidor a otro",
+        "C": "Cambiar la configuración de acceso al servidor",
+        "D": "Añadir un servicio al servidor que permite descargar ficheros"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Examen de Implantación de Aplicaciones Web",
+      "pregunta": "40. ¿Qué tecnología da formato a un documento construido con un lenguaje de marcas?",
+      "opciones": {
+        "A": "Xpath",
+        "B": "CSS",
+        "C": "HTML",
+        "D": "HTMLX"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": true
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Cómo se conoce al mecanismo que nos permite almacenar datos del usuario respecto a las páginas web que se alojan en el mismo navegador?",
+      "opciones": {
+        "A": "Sesión diferida",
+        "B": "Cookies",
+        "C": "Se almacenas en el SGBD",
+        "D": "Se almacena en las variables globales de PHP"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Cuáles de las siguientes afirmaciones sobre CSS no son correctas?",
+      "opciones": {
+        "A": "Permite dar formato a un documento construido con un lenguaje de marcas",
+        "B": "Permite dar formato a un documento construido con un lenguaje de marcas sólo utilizando un plugin",
+        "C": "Son las siglas de Cascade Style Sheet",
+        "D": "Se pueden usar media queries"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Cuáles de los siguientes son requisitos de una web 2.0?",
+      "opciones": {
+        "A": "Son aplicaciones ricas en internet, con aplicaciones similares a las de escritorio",
+        "B": "Dispone de web social",
+        "C": "Dispone de una arquitectura orientada a servicio",
+        "D": "Todas son correctas"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Cuáles son los pasos necesarios para establecer una conexión correcta a una base de datos MySQL?",
+      "opciones": {
+        "A": "Establecer conexión MySQL, Ejecutar sentencias, cerrar conexión",
+        "B": "Establecer conexión, Crear usuario y cerrar conexión",
+        "C": "No es necesario establecer conexión podemos ejecutar las sentencias SQL directamente",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué acciones son necesarias para la instalación de un WordPress en un hosting web?",
+      "opciones": {
+        "A": "Descargar y añadir Wordpress en el hosting",
+        "B": "Hacer una configuración previa",
+        "C": "Crear un usuario para wordpress",
+        "D": "Todas son correctas"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué afirmación sobre PHP es falsa?",
+      "opciones": {
+        "A": "Sus variables son de tipado débil",
+        "B": "Las variables PHP siempre van precedidas por un $",
+        "C": "Tiene tres tipos de datos escalares integer, float y string",
+        "D": "Es un lenguaje de programación de scripts de servidor flexible"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué elementos son necesarios tener instalados para poder instalar WordPress?",
+      "opciones": {
+        "A": "Una base de datos únicamente",
+        "B": "Una base de datos y un servidor web",
+        "C": "Un servidor web únicamente",
+        "D": "Ninguna de las respuestas es correcta"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué es una inyección SQL?",
+      "opciones": {
+        "A": "Una instrucción SQL específica para dar permisos de administrador a un usuario común.",
+        "B": "Una amenaza de seguridad bastante frecuente en páginas web",
+        "C": "Es una técnica de optimización para SGBD",
+        "D": "Todas las afirmaciones son incorrectas"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué etiqueta se usa para comenzar a escribir código PHP?",
+      "opciones": {
+        "A": "?>",
+        "B": "<?",
+        "C": "<",
+        "D": "?"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "¿Qué habrá que añadir a la URL del sitio web para poder acceder a la configuración de administrador de WordPress?",
+      "opciones": {
+        "A": "/wpadmin",
+        "B": "/admin",
+        "C": "/admin-wp",
+        "D": "/wp-admin"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "Capacidad de mudar archivos o datos de un servidor a otro:",
+      "opciones": {
+        "A": "Vectorización",
+        "B": "Virtualización",
+        "C": "Migración",
+        "D": "Ninguna de las anteriores"
+      },
+      "respuesta_correcta": "C",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "Cuando nos referimos a aplicaciones RIA hablamos de:",
+      "opciones": {
+        "A": "Aplicaciones web con servicios similares o iguales a la aplicación de escritorio",
+        "B": "Es un SGBD utilizado para gestionar páginas web",
+        "C": "Aplicaciones web que permiten al usuario publicar contenido online",
+        "D": "Aplicaciones que ayudan al programador a crear el código de una página web"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "Dentro de los diferentes tipos de nubes “software as service” posee las siglas de:",
+      "opciones": {
+        "A": "SaaS.",
+        "B": "PasS.",
+        "C": "IaaS.",
+        "D": "SasS."
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "El acceso a un conjunto de aplicaciones que simula el escritorio para la comodidad del usuario es llamado:",
+      "opciones": {
+        "A": "SSB",
+        "B": "SaaS",
+        "C": "IaaS",
+        "D": "Ninguna de las anteriores"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "El componente de WordPress que se enlaza a las categorías, a las páginas y a las entradas de nuestro sitio web o a enlaces personalizados se llama:",
+      "opciones": {
+        "A": "Menu.",
+        "B": "Slug.",
+        "C": "Permalink.",
+        "D": "Post."
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "En la arquitectura de tres niveles puede ser llamado de negociación:",
+      "opciones": {
+        "A": "Servidor cliente",
+        "B": "Servidor de aplicación",
+        "C": "Servidor de base de datos",
+        "D": "Servidor de autentificación"
+      },
+      "respuesta_correcta": "B",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "Indica cuales de las siguientes son ventajas de las aplicaciones web:",
+      "opciones": {
+        "A": "Datos centralizados",
+        "B": "No requiere instalación",
+        "C": "Actualizaciones constantes y sin costes",
+        "D": "Todas son correctas"
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "La biblioteca de medios permite gestionar",
+      "opciones": {
+        "A": "Las imágenes",
+        "B": "Los comentarios.",
+        "C": "Los plugins.",
+        "D": "Los usuarios"
+      },
+      "respuesta_correcta": "A",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "La interacción con la web en lenguaje humano pertenece a:",
+      "opciones": {
+        "A": "Web 1.0.",
+        "B": "Web 2.0.",
+        "C": "Web 3.0.",
+        "D": "Web 4.0."
+      },
+      "respuesta_correcta": "D",
+      "pregunta_examen": false
+    },
+    {
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
       "pregunta": "Office 365 es:",
       "opciones": {
         "A": "Una base de datos.",
@@ -4035,11 +4336,11 @@
         "D": "Word y Excel y PowerPoint."
       },
       "respuesta_correcta": "C",
-      "pregunta_examen": true
+      "pregunta_examen": false
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Para definir una contante en PHP utilizamos la función",
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
+      "pregunta": "Para definir una constante en PHP utilizamos la función",
       "opciones": {
         "A": "define().",
         "B": "constant()",
@@ -4047,10 +4348,10 @@
         "D": "Ninguna de las anteriores es correcta"
       },
       "respuesta_correcta": "A",
-      "pregunta_examen": true
+      "pregunta_examen": false
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
       "pregunta": "Para ejecutar una sentencia SQL, ¿qué función se debe usar?",
       "opciones": {
         "A": "select_db()",
@@ -4059,10 +4360,10 @@
         "D": "query()"
       },
       "respuesta_correcta": "D",
-      "pregunta_examen": true
+      "pregunta_examen": false
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
       "pregunta": "Qué elemento permite clasificar los contenidos de un sitio web:",
       "opciones": {
         "A": "Plugin",
@@ -4071,22 +4372,10 @@
         "D": "Tag"
       },
       "respuesta_correcta": "C",
-      "pregunta_examen": true
+      "pregunta_examen": false
     },
     {
-      "test": "EXAMEN CFGS ASIR 00004",
-      "pregunta": "Un ejemplo de SGBD es:",
-      "opciones": {
-        "A": "MySQL",
-        "B": "Microsoft Exchange",
-        "C": "Dovecot",
-        "D": "Postfix"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00004",
+      "test": "Cuestionario de Implantación de Aplicaciones Web",
       "pregunta": "Una lista negra nos permite:",
       "opciones": {
         "A": "Impedir que un usuario pueda administrar una página",
@@ -4095,918 +4384,294 @@
         "D": "Permitir el acceso solo a usuarios verificados"
       },
       "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál de los siguientes es un mensaje enviado en la comunicación entre un servidor y un cliente DHCP?",
-      "opciones": {
-        "A": "DISCOVERDHCP",
-        "B": "DHCPOFERTA",
-        "C": "DHCPREQUEST",
-        "D": "DHCPKNOWN"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál de los siguientes paquetes debe de estar instalado en el servidor para poder trabajar con lenguaje de scripting en un servidor web Ubuntu?",
-      "opciones": {
-        "A": "HTML",
-        "B": "XML",
-        "C": "PHP",
-        "D": "C++"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es el comando necesario para comprobar el funcionamiento del servicio de Apache en Ubuntu?",
-      "opciones": {
-        "A": "systemctl status apache",
-        "B": "systemctl state apache2",
-        "C": "systemctl status apache2",
-        "D": "systemctl apache2"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es el principal fichero de configuración de isc-dhcp-server?",
-      "opciones": {
-        "A": "/etc/netplan/fichero.yaml",
-        "B": "/etc/dhcp/dhcpd.conf",
-        "C": "/etc/default/dhcp",
-        "D": "/usr/bin/dhcpd"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es la función principal del resolutor o resolver en un sistema?",
-      "opciones": {
-        "A": "Responder consultas DNS",
-        "B": "Gestionar conexiones de red",
-        "C": "Proteger contra ataques cibernéticos",
-        "D": "Administrar la memoria del sistema"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es normalmente el puerto utilizado para la conexión de control en el protocolo FTP?",
-      "opciones": {
-        "A": "Puerto 20",
-        "B": "Puerto 21",
-        "C": "Puerto 22",
-        "D": "Puerto 80"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Qué comando se debe usar para descomprimir el fichero de instalación de Asterisk?",
-      "opciones": {
-        "A": "tar",
-        "B": "wget",
-        "C": "chmod",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Qué es Asterisk?",
-      "opciones": {
-        "A": "Una distribución de software libre para implementar VoIP",
-        "B": "Un programa informático para administrar sistemas",
-        "C": "Un directorio de trabajo de usuario en sistemas Linux",
-        "D": "Ninguna es correcta"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Asterisk se puede instalar en un servidor Ubuntu mediante la instalación del paquete propio del nombre o…",
-      "opciones": {
-        "A": "Instalando Windows en Ubuntu",
-        "B": "Mediante el uso de un Pendrive con Windows live",
-        "C": "Descargándolo desde su página web",
-        "D": "Asterisk no se puede instalar en Ubuntu"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Cadena de texto que identifica un recurso sin indicar donde se encuentra alojado:",
-      "opciones": {
-        "A": "URI",
-        "B": "URL",
-        "C": "URN",
-        "D": "URM"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "El comando ftp servidor_ftp en el terminal provoca que:",
-      "opciones": {
-        "A": "Se muestre el modo de transferencia",
-        "B": "Se muestre el nombre del directorio actual",
-        "C": "Se establezca la conexión con alguno de los servidores remotos específicos",
-        "D": "Se borre un directorio del servidor"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "El comando systemctl status isc-dhcp-server se usa para:",
-      "opciones": {
-        "A": "Comprobar el estado del servicio",
-        "B": "Iniciar el servicio",
-        "C": "Detener el servicio",
-        "D": "Reiniciar el servicio"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "En las URI, tras el protocolo se debe añadir:",
-      "opciones": {
-        "A": "/:",
-        "B": "//",
-        "C": "//:",
-        "D": "://"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "En Ubuntu, ¿qué comando deberíamos usar para reiniciar el servicio de FTP vsftpd?",
-      "opciones": {
-        "A": "systemctl start vsftpd",
-        "B": "systemctl restart vsftpd",
-        "C": "systemctl stop|start vsftpd",
-        "D": "systemctl status vsftpd"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Es el registro que define donde comienza una zona; se debe de colocar inmediatamente después de las directivas:",
-      "opciones": {
-        "A": "SOA",
-        "B": "NS",
-        "C": "A",
-        "D": "AAAA"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Es una característica de POP3:",
-      "opciones": {
-        "A": "Que el contenido del mensaje por lo general irá en texto plano",
-        "B": "Que el protocolo esté diseñado para clientes con poca velocidad de conexión",
-        "C": "Que existe un modo de operación offline",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Por lo general, ¿cuál es el puerto de escucha de SMTP?",
-      "opciones": {
-        "A": "Puerto 21",
-        "B": "Puerto 25",
-        "C": "Puerto 53",
-        "D": "Puerto 80"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Si el registro A de DNS se usa para direcciones IPv4, para IPv6 se usa:",
-      "opciones": {
-        "A": "NS",
-        "B": "SOA",
-        "C": "MX",
-        "D": "AAAA"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Si queremos añadir un usuario al servicio de mensajería instantánea ejabberd. ¿Qué comando debemos ejecutar?",
-      "opciones": {
-        "A": "ejabberdctl register",
-        "B": "ejabberdctl registered-users",
-        "C": "ejabberdctl unregister",
-        "D": "Ninguna es correcta"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "SSL es un protocolo:",
-      "opciones": {
-        "A": "De corrección",
-        "B": "De visualización",
-        "C": "De transferencia",
-        "D": "De seguridad"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿En qué fichero se pueden comprobar las concesiones de parámetros de red que asigna isc-dhcp-server en un sistema Ubuntu?",
-      "opciones": {
-        "A": "/etc/dhcpd.leases",
-        "B": "/var/lib/dhcp/dhcpd.leases",
-        "C": "/etc/isc-dhcp-server/dchpd.leases",
-        "D": "/var/lib/dhcp/leases.dhcp"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Cuál de los siguientes es un comando de Windows para desprendernos de una dirección IP?",
-      "opciones": {
-        "A": "Ipconfig /renew",
-        "B": "Dhclient -v",
-        "C": "Ifconfig",
-        "D": "Ninguna de las anteriores es correcta"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Qué versión de Apache es la usada actualmente?",
-      "opciones": {
-        "A": "Apache",
-        "B": "Apache3",
-        "C": "Apache4",
-        "D": "Apache2"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "El fichero donde se deben de indicar los parámetros de red que se van a asignar a clientes conectados a isc-dhcp-server es:",
-      "opciones": {
-        "A": "/etc/default/isc-dhcp.conf",
-        "B": "/etc/default/isc-dhcp-server",
-        "C": "/etc/dhcp/dhcpd.conf",
-        "D": "Todas son correctas"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "Los comentarios en los ficheros de configuración de Bind9 comienzan con el símbolo:",
-      "opciones": {
-        "A": "Coma",
-        "B": "Punto",
-        "C": "Doble barra //",
-        "D": "Almohadilla #"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "DNS son las siglas de...",
-      "opciones": {
-        "A": "Dynamic Name System",
-        "B": "Domain NetStat System",
-        "C": "Domain Name Service",
-        "D": "Domain Name Security"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿En qué fichero se indica cuál es la página de error que muestra Apache2?",
-      "opciones": {
-        "A": "/etc/apache2/apache2.conf",
-        "B": "/etc/apache/apache.conf",
-        "C": "/var/html",
-        "D": "/var/apache2/html"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "El protocolo TFTP es más ______ que el protocolo FTP.",
-      "opciones": {
-        "A": "Rápido",
-        "B": "Dinámico",
-        "C": "Lento",
-        "D": "Extenso"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Qué directiva de vsFTPd en Linux hay que activar para poder trabajar con usuarios locales del equipo?",
-      "opciones": {
-        "A": "chroot_local_user",
-        "B": "chroot_domain_user",
-        "C": "chuser_local_user",
-        "D": "chroot_list_user"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "SMTP son las siglas de...",
-      "opciones": {
-        "A": "Simple Management Transfer Protocol",
-        "B": "Simple Mail Transmarket Protocol",
-        "C": "Simple Mail Transfer Protocol",
-        "D": "Simple Mail Transfer Powers"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Cuál de los siguientes comandos sirve para que el servicio de Asterisk se active cada vez que iniciemos el sistema de manera automática?",
-      "opciones": {
-        "A": "systemctl start Asterisk",
-        "B": "systemctl enable asterisk",
-        "C": "systemctl status asterisk",
-        "D": "systemctl started asterisk"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Qué tipo de software es Asterisk?",
-      "opciones": {
-        "A": "Software libre",
-        "B": "Software propietario",
-        "C": "Software de pago",
-        "D": "No es un software"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "Los servidores de VoIP se basan en este protocolo para transmitir información:",
-      "opciones": {
-        "A": "FTP",
-        "B": "STP",
-        "C": "SMTP",
-        "D": "RTSP"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": true
-    },
-    {
-      "test": "EXAMEN CFGS ASIR 00013",
-      "pregunta": "¿Mediante qué lenguaje de etiquetado se pueden embeber vídeos en páginas web?",
-      "opciones": {
-        "A": "C++",
-        "B": "HTML",
-        "C": "Java",
-        "D": "No se pueden embeber vídeos en páginas web"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": true
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es el principal fichero de configuración de Asterisk?",
-      "opciones": {
-        "A": "/etc/asterisk/default",
-        "B": "/etc/default/ASTERISK",
-        "C": "/etc/default/asterisk",
-        "D": "/etc/default"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es el propósito de la declaración shared-network en DHCP cuando hay varias subredes en una misma subred física?",
-      "opciones": {
-        "A": "Asignar direcciones IP a dispositivos individuales",
-        "B": "Indicar el DNS y el gateway para todos los equipos de la red",
-        "C": "Dividir una red física en múltiples subredes con rangos de asignación de IP diferentes",
-        "D": "Reiniciar el servicio DHCP y comprobar su estado"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Cuál es la principal diferencia entre los modos de conexión FTP?",
-      "opciones": {
-        "A": "Los modos de conexión FTP se diferencian en la velocidad de transferencia de datos",
-        "B": "Los modos de conexión FTP se diferencian en la cantidad de comandos de control utilizados",
-        "C": "Los modos de conexión FTP se diferencian en los puertos utilizados para las conexiones de datos",
-        "D": "Los modos de conexión FTP se diferencian en la seguridad proporcionada"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Dónde suelen almacenarse los ficheros de audio que se transmiten en diferido?",
-      "opciones": {
-        "A": "En los directorios del sistema",
-        "B": "En listas de reproducción",
-        "C": "En playlist",
-        "D": "B y C son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Qué es necesario instalar antes de trabajar con Streama?",
-      "opciones": {
-        "A": "Un paquete de idioma",
-        "B": "El entorno de trabajo de PHP",
-        "C": "El entorno de trabajo de Java",
-        "D": "Ninguna es correcta"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "¿Qué protocolo de transporte usan los paquetes de DNS?",
-      "opciones": {
-        "A": "TCP",
-        "B": "UDP",
-        "C": "SMTP",
-        "D": "FTP"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Comúnmente, ¿cuál es el protocolo usado para la transmisión de audio en servidores de streaming?",
-      "opciones": {
-        "A": "FTP",
-        "B": "HTTP",
-        "C": "RTSP",
-        "D": "SMTP"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "El MTA es:",
-      "opciones": {
-        "A": "El cliente de correo electrónico",
-        "B": "El demonio que gestiona el correo",
-        "C": "El elemento encargado de organizar los buzones",
-        "D": "Todas son incorrectas"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "El protocolo IMAP por defecto se comunica con el servidor de correo mediante el puerto:",
-      "opciones": {
-        "A": "21",
-        "B": "25",
-        "C": "80",
-        "D": "143"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "El servidor recibe las transferencias de las zonas de otros servidores DNS primarios:",
-      "opciones": {
-        "A": "DNS caché y fordwarder",
-        "B": "DNS primario maestro",
-        "C": "DNS secundario maestro",
-        "D": "DNS caché maestro"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "En Apache, la directiva ErrorDocument se usa para:",
-      "opciones": {
-        "A": "Cambiar la página principal",
-        "B": "Cambiar la página de error por defecto",
-        "C": "Cambiar la configuración del DNS",
-        "D": "Cambiar la dirección del servidor web"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "En este tipo de consultas, el cliente lanza al servidor DNS una consulta de nombre FQDN con la intención de recibir la dirección IP.",
-      "opciones": {
-        "A": "Recursiva",
-        "B": "Iterativa",
-        "C": "Inversa",
-        "D": "Ninguna de las anteriores es correcta"
-      },
-      "respuesta_correcta": "A",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Es un método de acceso a FTP mediante un cliente gráfico:",
-      "opciones": {
-        "A": "Mediante el explorador de archivos",
-        "B": "Mediante navegadores web",
-        "C": "Mediante software cliente de FTP",
-        "D": "Todas las anteriores son correctas"
-      },
-      "respuesta_correcta": "D",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Este método suele ser muy usado en otros servidores con servicios fijos sujetos a monitorización:",
-      "opciones": {
-        "A": "Asignación automática",
-        "B": "Asignación manual",
-        "C": "Asignación dinámica",
-        "D": "Todas las anteriores son correctas"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Para realizar descargas en un servidor Ubuntu en el directorio en el que estamos situados se usa el comando:",
-      "opciones": {
-        "A": "getw",
-        "B": "wiget",
-        "C": "wget",
-        "D": "No es posible realizar descargar en Ubuntu Server"
-      },
-      "respuesta_correcta": "C",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Se rige por la RFC 1350:",
-      "opciones": {
-        "A": "Protocolo FTP TLS/SSL y SFTP",
-        "B": "Protocolo TFTP",
-        "C": "Protocolo FTP",
-        "D": "Ninguna de las anteriores"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Si hablamos de telefonía IP, SIP es el acrónimo de…",
-      "opciones": {
-        "A": "Session Description Protocol",
-        "B": "Session Initiation Protocol",
-        "C": "Simple Internet Protocol",
-        "D": "Secure Information Protocol"
-      },
-      "respuesta_correcta": "B",
-      "pregunta_examen": false
-    },
-    {
-      "test": "CUESTIONARIO MIXTO",
-      "pregunta": "Tipo de dirección que nos permite enviar cierta información a todos los elementos de la red:",
-      "opciones": {
-        "A": "Shared-network",
-        "B": "Broadcast",
-        "C": "Subnet",
-        "D": "Ninguna de las anteriores es correcta"
-      },
-      "respuesta_correcta": "B",
       "pregunta_examen": false
     }
   ],
   "Digitalización aplicada a los sectores productivos": [
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cómo pueden las THD contribuir a la sostenibilidad en el proceso de producción dentro de una economía circular?[cite: 1]",
+      "pregunta": "¿Cómo pueden las THD contribuir a la sostenibilidad en el proceso de producción dentro de una economía circular?",
       "opciones": {
-        "A": "Desarrollando aplicaciones móviles para facilitar la compra de productos.[cite: 1]",
-        "B": "Utilizando plataformas de e-learning para capacitar a trabajadores.[cite: 1]",
-        "C": "Mejorando la publicidad en línea para incrementar las ventas.[cite: 1]",
-        "D": "Implementando automatización y robótica para reducir el consumo de recursos y aumentar la eficiencia.[cite: 1]"
+        "A": "Desarrollando aplicaciones móviles para facilitar la compra de productos.",
+        "B": "Utilizando plataformas de e-learning para capacitar a trabajadores.",
+        "C": "Mejorando la publicidad en línea para incrementar las ventas.",
+        "D": "Implementando automatización y robótica para reducir el consumo de recursos y aumentar la eficiencia."
       },
       "respuesta_correcta": "D",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes afirmaciones define mejor la digitalización en sistemas empresariales?[cite: 2]",
+      "pregunta": "¿Cuál de las siguientes afirmaciones define mejor la digitalización en sistemas empresariales?",
       "opciones": {
-        "A": "Solo incluye la automatización de procesos.[cite: 2]",
-        "B": "Se refiere exclusivamente al uso de software en las empresas.[cite: 2]",
-        "C": "Es la integración de tecnologías digitales en todos los aspectos/contextos de una empresa.[cite: 2]",
-        "D": "Se limita a la conversión de documentos en papel a formato digital.[cite: 2]"
+        "A": "Solo incluye la automatización de procesos.",
+        "B": "Se refiere exclusivamente al uso de software en las empresas.",
+        "C": "Es la integración de tecnologías digitales en todos los aspectos/contextos de una empresa.",
+        "D": "Se limita a la conversión de documentos en papel a formato digital."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes características de la digitalización se refiere a la conversión de documentos en papel a formato digital?[cite: 3]",
+      "pregunta": "¿Cuál de las siguientes características de la digitalización se refiere a la conversión de documentos en papel a formato digital?",
       "opciones": {
-        "A": "Automatización.[cite: 3]",
-        "B": "Conversión de recursos.[cite: 3]",
-        "C": "Análisis de datos.[cite: 3]",
-        "D": "Innovación.[cite: 3]"
+        "A": "Automatización.",
+        "B": "Conversión de recursos.",
+        "C": "Análisis de datos.",
+        "D": "Innovación."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes características del Big Data se refiere a la cantidad de datos generados por usuarios y dispositivos?[cite: 4]",
+      "pregunta": "¿Cuál de las siguientes características del Big Data se refiere a la cantidad de datos generados por usuarios y dispositivos?",
       "opciones": {
-        "A": "Veracidad.[cite: 4]",
-        "B": "Velocidad.[cite: 4]",
-        "C": "Volumen.[cite: 4]",
-        "D": "Valor.[cite: 4]"
+        "A": "Veracidad.",
+        "B": "Velocidad.",
+        "C": "Volumen.",
+        "D": "Valor."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes características es común a los modelos IaaS y PaaS?[cite: 5]",
+      "pregunta": "¿Cuál de las siguientes características es común a los modelos IaaS y PaaS?",
       "opciones": {
-        "A": "El uso compartido de recursos de infraestructura entre múltiples usuarios.[cite: 5]",
-        "B": "La integración de middleware para la operación de aplicaciones web.[cite: 5]",
-        "C": "La posibilidad de gestionar y configurar la infraestructura física y virtual.[cite: 5]",
-        "D": "La reducción de complejidad en el desarrollo de aplicaciones.[cite: 5]"
+        "A": "El uso compartido de recursos de infraestructura entre múltiples usuarios.",
+        "B": "La integración de middleware para la operación de aplicaciones web.",
+        "C": "La posibilidad de gestionar y configurar la infraestructura física y virtual.",
+        "D": "La reducción de complejidad en el desarrollo de aplicaciones."
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes tecnologías permite a los usuarios jugar a juegos en alta calidad sin necesidad de hardware de altas prestaciones?[cite: 6]",
+      "pregunta": "¿Cuál de las siguientes tecnologías permite a los usuarios jugar a juegos en alta calidad sin necesidad de hardware de altas prestaciones?",
       "opciones": {
-        "A": "Big Data.[cite: 6]",
-        "B": "Inteligencia Artificial.[cite: 6]",
-        "C": "Cloud Gaming.[cite: 6]",
-        "D": "Realidad Aumentada.[cite: 6]"
+        "A": "Big Data.",
+        "B": "Inteligencia Artificial.",
+        "C": "Cloud Gaming.",
+        "D": "Realidad Aumentada."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de las siguientes tecnologías se refiere a la interconexión de dispositivos físicos a través de internet?[cite: 7]",
+      "pregunta": "¿Cuál de las siguientes tecnologías se refiere a la interconexión de dispositivos físicos a través de internet?",
       "opciones": {
-        "A": "Big Data.[cite: 7]",
-        "B": "Internet of Things.[cite: 7]",
-        "C": "Inteligencia Artificial.[cite: 7]",
-        "D": "Biotecnología.[cite: 7]"
+        "A": "Big Data.",
+        "B": "Internet of Things.",
+        "C": "Inteligencia Artificial.",
+        "D": "Biotecnología."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de los siguientes avances se menciona como un hito importante en la etapa pre-digital?[cite: 8]",
+      "pregunta": "¿Cuál de los siguientes avances se menciona como un hito importante en la etapa pre-digital?",
       "opciones": {
-        "A": "La invención del teléfono Extendida.[cite: 8]",
-        "B": "La creación de la computadora.[cite: 8]",
-        "C": "La invención del telégrafo eléctrico.[cite: 8]",
-        "D": "El desarrollo de Internet.[cite: 8]"
+        "A": "La invención del teléfono Extendida.",
+        "B": "La creación de la computadora.",
+        "C": "La invención del telégrafo eléctrico.",
+        "D": "El desarrollo de Internet."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de los siguientes componentes de las tecnologías de la información se refiere al equipamiento físico necesario para el procesamiento de datos?[cite: 9]",
+      "pregunta": "¿Cuál de los siguientes componentes de las tecnologías de la información se refiere al equipamiento físico necesario para el procesamiento de datos?",
       "opciones": {
-        "A": "Software.[cite: 9]",
-        "B": "Redes de comunicación.[cite: 9]",
-        "C": "Seguridad en la información.[cite: 9]",
-        "D": "Hardware.[cite: 9]"
+        "A": "Software.",
+        "B": "Redes de comunicación.",
+        "C": "Seguridad en la información.",
+        "D": "Hardware."
       },
       "respuesta_correcta": "D",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de los siguientes componentes de las tecnologías de la operación se encarga de controlar y automatizar procesos industriales mediante la ejecución de programas?[cite: 10]",
+      "pregunta": "¿Cuál de los siguientes componentes de las tecnologías de la operación se encarga de controlar y automatizar procesos industriales mediante la ejecución de programas?",
       "opciones": {
-        "A": "Dispositivos de campo.[cite: 10]",
-        "B": "Sistemas de Control de Supervisión y Adquisición de Datos (SCADA).[cite: 10]",
-        "C": "Sistemas de control industrial.[cite: 10]",
-        "D": "Redes de comunicación industrial.[cite: 10]"
+        "A": "Dispositivos de campo.",
+        "B": "Sistemas de Control de Supervisión y Adquisición de Datos (SCADA).",
+        "C": "Sistemas de control industrial.",
+        "D": "Redes de comunicación industrial."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de los siguientes lenguajes de programación es conocido por su sintaxis sencilla y su amplia gama de bibliotecas, siendo el más popular en el desarrollo de IA?[cite: 11]",
+      "pregunta": "¿Cuál de los siguientes lenguajes de programación es conocido por su sintaxis sencilla y su amplia gama de bibliotecas, siendo el más popular en el desarrollo de IA?",
       "opciones": {
-        "A": "Java.[cite: 11]",
-        "B": "C++.[cite: 11]",
-        "C": "Python.[cite: 11]",
-        "D": "JavaScript.[cite: 11]"
+        "A": "Java.",
+        "B": "C++.",
+        "C": "Python.",
+        "D": "JavaScript."
       },
       "respuesta_correcta": "C",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál de los siguientes ordenadores es considerado el primer ordenador electrónico?[cite: 12]",
+      "pregunta": "¿Cuál de los siguientes ordenadores es considerado el primer ordenador electrónico?",
       "opciones": {
-        "A": "Z1.[cite: 12]",
-        "B": "ENIAC.[cite: 12]",
-        "C": "Bombe.[cite: 12]",
-        "D": "Enigma.[cite: 12]"
+        "A": "Z1.",
+        "B": "ENIAC.",
+        "C": "Bombe.",
+        "D": "Enigma."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es el principal objetivo de la integración entre las tecnologías IT y OT en una empresa?[cite: 13]",
+      "pregunta": "¿Cuál es el principal objetivo de la integración entre las tecnologías IT y OT en una empresa?",
       "opciones": {
-        "A": "Aumentar el número de trabajadores.[cite: 13]",
-        "B": "Interrelacionar la información de producción con los sistemas de gestión.[cite: 13]",
-        "C": "Reducir el uso de tecnología.[cite: 13]",
-        "D": "Eliminar la necesidad de supervisión.[cite: 13]"
+        "A": "Aumentar el número de trabajadores.",
+        "B": "Interrelacionar la información de producción con los sistemas de gestión.",
+        "C": "Reducir el uso de tecnología.",
+        "D": "Eliminar la necesidad de supervisión."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es la diferencia principal entre una economía lineal y una economía circular?[cite: 14]",
+      "pregunta": "¿Cuál es la diferencia principal entre una economía lineal y una economía circular?",
       "opciones": {
-        "A": "La economía lineal optimiza el uso de recursos mientras que la economía circular se basa en el reciclaje.[cite: 14]",
-        "B": "La economía lineal sigue un flujo unidireccional de recursos, mientras que la economía circular incorpora el concepto de reducir, reutilizar y reciclar.[cite: 14]",
-        "C": "La economía circular depende de la producción masiva mientras que la economía lineal se basa en la sostenibilidad.[cite: 14]",
-        "D": "La economía lineal solo se aplica a sectores industriales, mientras que la economía circular se enfoca en el consumo de bienes.[cite: 14]"
+        "A": "La economía lineal optimiza el uso de recursos mientras que la economía circular se basa en el reciclaje.",
+        "B": "La economía lineal sigue un flujo unidireccional de recursos, mientras que la economía circular incorpora el concepto de reducir, reutilizar y reciclar.",
+        "C": "La economía circular depende de la producción masiva mientras que la economía lineal se basa en la sostenibilidad.",
+        "D": "La economía lineal solo se aplica a sectores industriales, mientras que la economía circular se enfoca en el consumo de bienes."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es la principal función de definir objetivos en un proyecto de transformación digital?[cite: 15]",
+      "pregunta": "¿Cuál es la principal función de definir objetivos en un proyecto de transformación digital?",
       "opciones": {
-        "A": "Aumentar la inversión en tecnología.[cite: 15]",
-        "B": "Establecer un rumbo estratégico para la empresa.[cite: 15]",
-        "C": "Reducir el número de empleados.[cite: 15]",
-        "D": "Minimizar el uso de tecnologías digitales.[cite: 15]"
+        "A": "Aumentar la inversión en tecnología.",
+        "B": "Establecer un rumbo estratégico para la empresa.",
+        "C": "Reducir el número de empleados.",
+        "D": "Minimizar el uso de tecnologías digitales."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es una característica clave de los sistemas SaaS en comparación con IaaS y PaaS?[cite: 16]",
+      "pregunta": "¿Cuál es una característica clave de los sistemas SaaS en comparación con IaaS y PaaS?",
       "opciones": {
-        "A": "Ofrecen una mayor capacidad de personalización de la infraestructura subyacente.[cite: 16]",
-        "B": "Facilitan la gestión de bases de datos y software de middleware.[cite: 16]",
-        "C": "Requieren una instalación y configuración complejas.[cite: 16]",
-        "D": "Son aplicaciones listas para usar sin necesidad de instalación ni configuración adicional.[cite: 16]"
+        "A": "Ofrecen una mayor capacidad de personalización de la infraestructura subyacente.",
+        "B": "Facilitan la gestión de bases de datos y software de middleware.",
+        "C": "Requieren una instalación y configuración complejas.",
+        "D": "Son aplicaciones listas para usar sin necesidad de instalación ni configuración adicional."
       },
       "respuesta_correcta": "D",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es una de las aplicaciones de los drones en la industria?[cite: 17]",
+      "pregunta": "¿Cuál es una de las aplicaciones de los drones en la industria?",
       "opciones": {
-        "A": "Realizar entregas de productos.[cite: 17]",
-        "B": "Detectar averías en equipos mediante captura termográfica.[cite: 17]",
-        "C": "Cultivar campos de forma autónoma.[cite: 17]",
-        "D": "Programar robots de aplicación específica.[cite: 17]"
+        "A": "Realizar entregas de productos.",
+        "B": "Detectar averías en equipos mediante captura termográfica.",
+        "C": "Cultivar campos de forma autónoma.",
+        "D": "Programar robots de aplicación específica."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es una de las características clave de la tecnología Blockchain?[cite: 18]",
+      "pregunta": "¿Cuál es una de las características clave de la tecnología Blockchain?",
       "opciones": {
-        "A": "Centralización en un servidor principal.[cite: 18]",
-        "B": "Transparencia y trazabilidad en todas las transacciones.[cite: 18]",
-        "C": "Almacenamiento de datos en un solo lugar.[cite: 18]",
-        "D": "Exclusividad para el uso de criptomonedas.[cite: 18]"
+        "A": "Centralización en un servidor principal.",
+        "B": "Transparencia y trazabilidad en todas las transacciones.",
+        "C": "Almacenamiento de datos en un solo lugar.",
+        "D": "Exclusividad para el uso de criptomonedas."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es uno de los aspectos clave que se debe revisar y ajustar durante el seguimiento continuo de un proyecto?[cite: 19]",
+      "pregunta": "¿Cuál es uno de los aspectos clave que se debe revisar y ajustar durante el seguimiento continuo de un proyecto?",
       "opciones": {
-        "A": "La estructura organizativa.[cite: 19]",
-        "B": "Las metas y KPIs.[cite: 19]",
-        "C": "La ubicación de la empresa.[cite: 19]",
-        "D": "El número de empleados.[cite: 19]"
+        "A": "La estructura organizativa.",
+        "B": "Las metas y KPIs.",
+        "C": "La ubicación de la empresa.",
+        "D": "El número de empleados."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Cuál es uno de los beneficios principales de la digitalización en el sector del medio ambiente?[cite: 20]",
+      "pregunta": "¿Cuál es uno de los beneficios principales de la digitalización en el sector del medio ambiente?",
       "opciones": {
-        "A": "Reducción en la utilización de recursos materiales y energéticos.[cite: 20]",
-        "B": "Incremento en el uso de recursos naturales.[cite: 20]",
-        "C": "Aumento en la dependencia de combustibles fósiles.[cite: 20]",
-        "D": "Expansión del uso de papel en las oficinas.[cite: 20]"
+        "A": "Reducción en la utilización de recursos materiales y energéticos.",
+        "B": "Incremento en el uso de recursos naturales.",
+        "C": "Aumento en la dependencia de combustibles fósiles.",
+        "D": "Expansión del uso de papel en las oficinas."
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Por qué es importante revisar y ajustar los KPIs durante un proyecto de transformación digital?[cite: 21]",
+      "pregunta": "¿Por qué es importante revisar y ajustar los KPIs durante un proyecto de transformación digital?",
       "opciones": {
-        "A": "Para evitar la implementación de nueva tecnología.[cite: 21]",
-        "B": "Para reducir el número de empleados gracias a la digitalización.[cite: 21]",
-        "C": "Para aumentar el presupuesto del proyecto.[cite: 21]",
-        "D": "Para asegurarnos de que siguen alineados con los objetivos actuales del proyecto y reflejan con precisión los resultados esperados.[cite: 21]"
+        "A": "Para evitar la implementación de nueva tecnología.",
+        "B": "Para reducir el número de empleados gracias a la digitalización.",
+        "C": "Para aumentar el presupuesto del proyecto.",
+        "D": "Para asegurarnos de que siguen alineados con los objetivos actuales del proyecto y reflejan con precisión los resultados esperados."
       },
       "respuesta_correcta": "D",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Qué área ha contribuido significativamente al desarrollo de la Inteligencia Artificial permitiendo a los sistemas aprender a partir de la experiencia y los datos?[cite: 22]",
+      "pregunta": "¿Qué área ha contribuido significativamente al desarrollo de la Inteligencia Artificial permitiendo a los sistemas aprender a partir de la experiencia y los datos?",
       "opciones": {
-        "A": "Procesamiento del lenguaje natural.[cite: 22]",
-        "B": "Machine Learning.[cite: 22]",
-        "C": "Reconocimiento de voz.[cite: 22]",
-        "D": "Conducción autónoma.[cite: 22]"
+        "A": "Procesamiento del lenguaje natural.",
+        "B": "Machine Learning.",
+        "C": "Reconocimiento de voz.",
+        "D": "Conducción autónoma."
       },
       "respuesta_correcta": "B",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Qué aspecto de la digitalización permite a las empresas mejorar su capacidad de respuesta y adaptabilidad al mercado?[cite: 23]",
+      "pregunta": "¿Qué aspecto de la digitalización permite a las empresas mejorar su capacidad de respuesta y adaptabilidad al mercado?",
       "opciones": {
-        "A": "El análisis de datos mediante Big Data.[cite: 23]",
-        "B": "La reducción del tamaño de los ordenadores.[cite: 23]",
-        "C": "La invención del transistor.[cite: 23]",
-        "D": "El uso de teléfonos inteligentes.[cite: 23]"
+        "A": "El análisis de datos mediante Big Data.",
+        "B": "La reducción del tamaño de los ordenadores.",
+        "C": "La invención del transistor.",
+        "D": "El uso de teléfonos inteligentes."
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
     },
     {
       "test": "Examen de Digitalización",
-      "pregunta": "¿Qué diferencia principal existe entre la IA débil y la IA fuerte?[cite: 24]",
+      "pregunta": "¿Qué diferencia principal existe entre la IA débil y la IA fuerte?",
       "opciones": {
-        "A": "La IA fuerte puede aprender de manera autónoma y generalizada.[cite: 24]",
-        "B": "La IA débil puede realizar cualquier tarea cognitiva.[cite: 24]",
-        "C": "La IA fuerte solo se especializa en tareas muy concretas.[cite: 24]",
-        "D": "La IA débil tiene capacidad de razonamiento profundo.[cite: 24]"
+        "A": "La IA fuerte puede aprender de manera autónoma y generalizada.",
+        "B": "La IA débil puede realizar cualquier tarea cognitiva.",
+        "C": "La IA fuerte solo se especializa en tareas muy concretas.",
+        "D": "La IA débil tiene capacidad de razonamiento profundo."
       },
       "respuesta_correcta": "A",
       "pregunta_examen": true
