@@ -6,6 +6,7 @@ export type ExamAnswer = {
   answer_3: string;
   answer_4: string;
   correct_answer: string;
+  pregunta_examen?: boolean;
 };
 
 export interface Answer {
@@ -18,6 +19,7 @@ export interface Answer {
   answer_4: string;
   correct_answer: string;
   subject: string;
+  pregunta_examen?: boolean;
 }
 
 export interface AnswerResult {

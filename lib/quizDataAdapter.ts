@@ -10,6 +10,7 @@ interface QuizQuestionRow {
   pregunta: string;
   opciones: QuizOpciones;
   respuesta_correcta: string;
+  pregunta_examen?: boolean;
 }
 
 type QuizDataFile = Record<string, QuizQuestionRow[]>;
@@ -46,6 +47,7 @@ export function adaptQuizDataToExamAnswers(
         answer_3,
         answer_4,
         correct_answer,
+        pregunta_examen: row.pregunta_examen,
       });
     }
   }

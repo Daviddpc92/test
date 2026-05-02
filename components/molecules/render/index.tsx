@@ -1,4 +1,4 @@
-import { JSX, useEffect, useState } from "react";
+import { JSX, useEffect, useState, useRef, useCallback } from "react";
 import {
   ArrowLeft,
   EyeClosed,
@@ -7,6 +7,8 @@ import {
   ChevronRight,
   Trophy,
 } from "lucide-react";
+import gsap from "gsap";
+import { Draggable } from "gsap/Draggable";
 import { Button } from "@/components/atoms/button";
 import { subjectCoverImageUrl } from "@/lib/subjectCoverImage";
 import {
@@ -17,11 +19,15 @@ import {
   StatsRecord,
 } from "./types";
 
+gsap.registerPlugin(Draggable);
+
 export default function RenderQuestion({
   answer,
 }: {
   answer: ExamAnswer[];
 }): JSX.Element {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const draggableRef = useRef<InstanceType<typeof Draggable> | null>(null);
   const [groupedAnswers, setGroupedAnswers] = useState<GroupedAnswers>({});
   const [subjectStats, setSubjectStats] = useState<StatsRecord>({});
   const [showTest, setShowTest] = useState<boolean>(false);
@@ -35,6 +41,7 @@ export default function RenderQuestion({
   const [testCompleted, setTestCompleted] = useState<boolean>(false);
   const [answerResults, setAnswerResults] = useState<AnswerResult[]>([]);
   const [showMistakes, setShowMistakes] = useState<boolean>(false);
+  const [isDragging, setIsDragging] = useState<boolean>(false);
 
   useEffect(() => {
     const loadStats = () => {
@@ -62,6 +69,75 @@ export default function RenderQuestion({
     setGroupedAnswers(grouped);
   }, [answer]);
 
+  // Configurar Draggable para la tarjeta de preguntas
+  useEffect(() => {
+    if (!cardRef.current || !showTest || testCompleted || !currentQuestion)
+      return;
+
+    // Limpiar Draggable anterior si existe
+    if (draggableRef.current) {
+      draggableRef.current.kill();
+    }
+
+    const THRESHOLD = 50; // píxeles para considerar un swipe
+
+    draggableRef.current = Draggable.create(cardRef.current, {
+      type: "x",
+      edgeResistance: 0.65,
+      bounds: { minX: -300, maxX: 300 },
+      onDragStart: () => {
+        setIsDragging(true);
+      },
+      onDragEnd: function () {
+        setIsDragging(false);
+        const x = this.x;
+
+        // Swipe a la izquierda (siguiente/submit)
+        if (x < -THRESHOLD) {
+          if (selectedAnswer !== null) {
+            // Si hay respuesta seleccionada, enviar
+            if (
+              selectedSubject &&
+              currentQuestionIndex < groupedAnswers[selectedSubject].length - 1
+            ) {
+              nextQuestion();
+            } else if (selectedSubject) {
+              finishTest();
+            }
+          }
+          // Volver a la posición inicial si no hay respuesta
+          gsap.to(cardRef.current, { x: 0, duration: 0.3 });
+        }
+        // Swipe a la derecha (anterior)
+        else if (x > THRESHOLD) {
+          if (currentQuestionIndex > 0) {
+            prevQuestion();
+          }
+          // Volver a la posición inicial si es la primera pregunta
+          gsap.to(cardRef.current, { x: 0, duration: 0.3 });
+        }
+        // Volver al centro si no se pasó el threshold
+        else {
+          gsap.to(cardRef.current, { x: 0, duration: 0.3 });
+        }
+      },
+    })[0];
+
+    return () => {
+      if (draggableRef.current) {
+        draggableRef.current.kill();
+      }
+    };
+  }, [
+    showTest,
+    testCompleted,
+    currentQuestion,
+    selectedAnswer,
+    currentQuestionIndex,
+    selectedSubject,
+    groupedAnswers,
+  ]);
+
   const updateStats = (subject: string, newScore: number) => {
     const currentStats = { ...subjectStats };
 
@@ -75,7 +151,7 @@ export default function RenderQuestion({
     currentStats[subject].attempts += 1;
     currentStats[subject].highestScore = Math.max(
       currentStats[subject].highestScore,
-      newScore
+      newScore,
     );
 
     setSubjectStats(currentStats);
@@ -110,7 +186,7 @@ export default function RenderQuestion({
 
       const currentResults = [...answerResults];
       const existingIndex = currentResults.findIndex(
-        (result) => result.question.title === currentQuestion.title
+        (result) => result.question.title === currentQuestion.title,
       );
 
       const result: AnswerResult = {
@@ -141,7 +217,7 @@ export default function RenderQuestion({
       setCurrentQuestion(nextQuestion);
 
       const existingResult = answerResults.find(
-        (result) => result.question.title === nextQuestion.title
+        (result) => result.question.title === nextQuestion.title,
       );
 
       if (existingResult) {
@@ -156,11 +232,20 @@ export default function RenderQuestion({
     }
   };
 
-  const prevQuestion = (): void => {
-    goToQuestion(currentQuestionIndex - 1);
-  };
+  const finishTest = useCallback((): void => {
+    if (selectedSubject) {
+      const totalQuestions = groupedAnswers[selectedSubject].length;
+      const scorePercentage = Math.round((score / totalQuestions) * 100);
+      updateStats(selectedSubject, scorePercentage);
+    }
+    setTestCompleted(true);
+  }, [selectedSubject, groupedAnswers, score]);
 
-  const nextQuestion = (): void => {
+  const prevQuestion = useCallback((): void => {
+    goToQuestion(currentQuestionIndex - 1);
+  }, [currentQuestionIndex, groupedAnswers, selectedSubject, answerResults]);
+
+  const nextQuestion = useCallback((): void => {
     if (selectedAnswer === null) {
       goToQuestion(currentQuestionIndex + 1);
       return;
@@ -174,16 +259,13 @@ export default function RenderQuestion({
         finishTest();
       }
     }
-  };
-
-  const finishTest = (): void => {
-    if (selectedSubject) {
-      const totalQuestions = groupedAnswers[selectedSubject].length;
-      const scorePercentage = Math.round((score / totalQuestions) * 100);
-      updateStats(selectedSubject, scorePercentage);
-    }
-    setTestCompleted(true);
-  };
+  }, [
+    selectedAnswer,
+    currentQuestionIndex,
+    selectedSubject,
+    groupedAnswers,
+    finishTest,
+  ]);
 
   const goBackToCourses = (): void => {
     setShowTest(false);
@@ -227,7 +309,7 @@ export default function RenderQuestion({
               {selectedSubject &&
                 getScorePercentage(
                   score,
-                  groupedAnswers[selectedSubject].length
+                  groupedAnswers[selectedSubject].length,
                 )}
               % )
             </p>
@@ -301,37 +383,52 @@ export default function RenderQuestion({
             </div>
           </div>
         ) : currentQuestion && selectedSubject ? (
-          <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-            <div className="flex justify-between items-center mb-4">
-              <div className="text-black text-sm">
-                Pregunta {currentQuestionIndex + 1} de{" "}
-                {groupedAnswers[selectedSubject].length}
+          <div className="max-w-2xl mx-auto">
+            <div
+              ref={cardRef}
+              className={`bg-white p-8 rounded-lg shadow-lg transition-shadow ${
+                isDragging ? "shadow-2xl" : "shadow-lg"
+              }`}
+              style={{ touchAction: "none" }}
+            >
+              <div className="flex justify-between items-center mb-4">
+                <div className="flex items-center gap-2">
+                  <span className="text-black text-sm">
+                    Pregunta {currentQuestionIndex + 1} de{" "}
+                    {groupedAnswers[selectedSubject].length}
+                  </span>
+                  {currentQuestion.pregunta_examen && (
+                    <span className="border-2 border-yellow-500 bg-gradient-to-r from-red-600 to-orange-600 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg animate-pulse">
+                      ⭐ EXAMEN
+                    </span>
+                  )}
+                </div>
+
+                <div className="flex gap-2 items-center">
+                  <button
+                    onClick={() => setShowAnswer(!showAnswer)}
+                    className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800"
+                  >
+                    {showAnswer ? <Eye size={16} /> : <EyeClosed size={16} />}
+                    {showAnswer ? "Ocultar respuesta" : "Ver respuesta"}
+                  </button>
+                </div>
               </div>
 
-              <div className="flex gap-2 items-center">
-                <button
-                  onClick={() => setShowAnswer(!showAnswer)}
-                  className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800"
-                >
-                  {showAnswer ? <Eye size={16} /> : <EyeClosed size={16} />}
-                  {showAnswer ? "Ocultar respuesta" : "Ver respuesta"}
-                </button>
-              </div>
-            </div>
+              <h2 className="text-xl text-black font-semibold mb-6">
+                {currentQuestion.title}
+              </h2>
 
-            <h2 className="text-xl text-black font-semibold mb-6">
-              {currentQuestion.title}
-            </h2>
+              {showAnswer && (
+                <p className="text-sm text-green-600 mb-4 font-medium">
+                  Respuesta correcta: {currentQuestion.correct_answer}
+                </p>
+              )}
 
-            {showAnswer && (
-              <p className="text-sm text-green-600 mb-4 font-medium">
-                Respuesta correcta: {currentQuestion.correct_answer}
-              </p>
-            )}
-
-            <div className="space-y-3 mb-8">
-              {(["answer_1", "answer_2", "answer_3", "answer_4"] as const).map(
-                (answerKey) => (
+              <div className="space-y-3 mb-8">
+                {(
+                  ["answer_1", "answer_2", "answer_3", "answer_4"] as const
+                ).map((answerKey) => (
                   <button
                     key={answerKey}
                     onClick={() => checkAnswer(currentQuestion[answerKey])}
@@ -342,57 +439,77 @@ export default function RenderQuestion({
                           ? "bg-green-100 border-green-500"
                           : "bg-red-100 border-red-500"
                         : currentQuestion.correct_answer ===
-                            currentQuestion[answerKey] &&
-                          selectedAnswer !== null
-                        ? "bg-green-100 border-green-500"
-                        : "hover:bg-gray-50 border-gray-200"
+                              currentQuestion[answerKey] &&
+                            selectedAnswer !== null
+                          ? "bg-green-100 border-green-500"
+                          : "hover:bg-gray-50 border-gray-200"
                     }`}
                   >
                     {currentQuestion[answerKey]}
                   </button>
-                )
+                ))}
+              </div>
+
+              {/* Indicadores de swipe */}
+              <div className="flex justify-between items-center mb-6 text-xs text-gray-500">
+                <div className="flex items-center gap-1">
+                  <ChevronLeft size={14} />
+                  <span>Desliza izquierda para siguiente</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span>Desliza derecha para anterior</span>
+                  <ChevronRight size={14} />
+                </div>
+              </div>
+
+              {selectedAnswer !== null && (
+                <div className="text-center mb-4 p-2 bg-blue-50 rounded text-sm text-blue-700">
+                  {selectedAnswer === currentQuestion.correct_answer
+                    ? "✓ Respuesta correcta - Desliza izquierda para continuar"
+                    : "✗ Respuesta incorrecta - Puedes deslizar derecha para revisar"}
+                </div>
               )}
-            </div>
 
-            <div className="flex justify-between">
-              <button
-                onClick={prevQuestion}
-                disabled={currentQuestionIndex === 0}
-                className={`flex items-center px-4 py-2 rounded-lg ${
-                  currentQuestionIndex === 0
-                    ? "bg-gray-200 text-gray-500 cursor-not-allowed"
-                    : "bg-gray-300 text-gray-700 hover:bg-gray-400"
-                }`}
-              >
-                <ChevronLeft size={16} className="mr-1" />
-                Anterior
-              </button>
+              <div className="flex justify-between">
+                <button
+                  onClick={prevQuestion}
+                  disabled={currentQuestionIndex === 0}
+                  className={`flex items-center px-4 py-2 rounded-lg ${
+                    currentQuestionIndex === 0
+                      ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+                      : "bg-gray-300 text-gray-700 hover:bg-gray-400"
+                  }`}
+                >
+                  <ChevronLeft size={16} className="mr-1" />
+                  Anterior
+                </button>
 
-              <div className="flex gap-4">
-                {currentQuestionIndex ===
-                  groupedAnswers[selectedSubject].length - 1 && (
-                  <button
-                    onClick={finishTest}
-                    className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
-                  >
-                    Finalizar
-                  </button>
-                )}
+                <div className="flex gap-4">
+                  {currentQuestionIndex ===
+                    groupedAnswers[selectedSubject].length - 1 && (
+                    <button
+                      onClick={finishTest}
+                      className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
+                    >
+                      Finalizar
+                    </button>
+                  )}
 
-                {currentQuestionIndex <
-                  groupedAnswers[selectedSubject].length - 1 && (
-                  <button
-                    onClick={nextQuestion}
-                    className={`flex items-center px-4 py-2 rounded-lg ${
-                      selectedAnswer === null
-                        ? "bg-blue-400 text-white hover:bg-blue-500"
-                        : "bg-blue-600 text-white hover:bg-blue-700"
-                    }`}
-                  >
-                    Siguiente
-                    <ChevronRight size={16} className="ml-1" />
-                  </button>
-                )}
+                  {currentQuestionIndex <
+                    groupedAnswers[selectedSubject].length - 1 && (
+                    <button
+                      onClick={nextQuestion}
+                      className={`flex items-center px-4 py-2 rounded-lg ${
+                        selectedAnswer === null
+                          ? "bg-blue-400 text-white hover:bg-blue-500"
+                          : "bg-blue-600 text-white hover:bg-blue-700"
+                      }`}
+                    >
+                      Siguiente
+                      <ChevronRight size={16} className="ml-1" />
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           </div>
@@ -460,7 +577,7 @@ export default function RenderQuestion({
                 </div>
               </div>
             </div>
-          )
+          ),
         )}
       </div>
     </div>
